@@ -1,0 +1,13 @@
+extends ./_layout.jade
+
+block content
+  .wrapper
+    .layout-side
+      +menu()
+    .layout-content._flex
+      .layout-content__left
+        +balance-block()
+        +money-chart()
+      .layout-content__right
+        +wallet-block()
+        +last-paid()

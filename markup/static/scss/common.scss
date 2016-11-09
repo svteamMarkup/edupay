@@ -1,0 +1,42 @@
+// Common styles of the project
+
+html,
+body {
+  height: 100%;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+}
+
+.main {
+  width: 100%;
+  max-width: 1268px;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+
+  align-items: stretch;
+  @extend .main;
+  justify-content: space-between;
+}
+
+.layout-side {
+  width: 241px;
+}
+
+.layout-content {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1027px;
+  padding: 27px 31px 27px 37px;
+
+  background: #f4f4f4;
+  &__left {
+    width: 690px;
+  }
+  &__right {
+    width: 250px;
+  }
+}

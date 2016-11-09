@@ -1,0 +1,36 @@
+mixin header(data)
+  header.header
+    a(href="#" title="").header__logo
+
+    .header-user-info
+      .header-user-info__item
+        .header-user-info__icon
+          i.fa.fa-rub
+        .header-user-info__content
+          .header-user-info__label Баланс: 
+          .header-user-info__text 999 999 
+            span руб
+
+      .header-user-info__item
+        .header-user-info__icon
+          i.fa.fa-envelope
+        .header-user-info__content
+          .header-user-info__label Тикеты: 
+          .header-user-info__text 50
+
+      .header-user-info__item
+        .header-user-info__icon
+          i.fa.fa-bar-chart
+        .header-user-info__content
+          .header-user-info__label отчисления: 
+          .header-user-info__text 30%
+
+      .header-user-info__item
+        .header-user-info__avatar
+          img(src="%=static=%images/assets/header/default-avatar.png" alt="")
+        .header-user-info__content
+          .header-user-info__label Aккаунт:
+          .header-user-info__name VAGE5
+        a(href="#" title="").header-user-info__logout
+          i.fa.fa-sign-out
+          

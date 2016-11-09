@@ -1,0 +1,14 @@
+.wallet-block {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 250px;
+  padding-top: 14px;
+  padding-right: 22px;
+  padding-bottom: 18px;
+  padding-left: 22px;
+
+  @extend .white-block;
+  &__title {
+    margin-bottom: 8px;
+  }
+}

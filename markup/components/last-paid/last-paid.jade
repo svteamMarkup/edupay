@@ -1,0 +1,13 @@
+mixin last-paid(data)
+  .last-paid
+    .title.last-paid__title Последние Выплаты
+
+    table.table.last-paid-table._zebra
+      tbody
+        - for (var i = 0; i < 7; i++)
+          tr
+            td
+              i.fa.fa-check
+            td 16.05.2011 15:60
+            td 656 000 
+              span руб
