@@ -1,0 +1,11 @@
+extends ./_layout.jade
+
+block content
+  .wrapper
+    .layout-side
+      +menu()
+    .layout-content
+      ._flex
+        +filter-block(['По дням','По сайтам', 'по субаккаунтам', 'По источникам'])
+        +filter-block(['Вчера','Сегодня','Прошлая неделя','Текущая неделя','Прошлый месяц','Текущий месяц'])
+      +statistics-table()

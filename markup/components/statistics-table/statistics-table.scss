@@ -1,0 +1,47 @@
+.statistics-table {
+  margin-top: 30px;
+  padding: 20px 20px 25px;
+
+  @extend .white-block;
+}
+
+.statistics-table-top {
+  @extend ._flex;
+  &__item {
+    &._first {
+      width: 200px;
+    }
+    &._second {
+      width: 215px;
+    }
+  }
+}
+
+.table-statistics {
+  margin-top: 20px;
+  th {
+    &:first-child {
+      text-align: left;
+    }
+    &:nth-child(2) {
+      text-align: left;
+    }
+  }
+  tbody {
+    td {
+      text-align: center;
+
+      color: #666;
+
+      font-size: 14px;
+      &:first-child {
+        text-align: left;
+      }
+      &:nth-child(2) {
+        text-align: left;
+
+        color: $green;
+      }
+    }
+  }
+}

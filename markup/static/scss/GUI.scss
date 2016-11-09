@@ -31,6 +31,10 @@
   flex-wrap: wrap;
 }
 
+._flex-start {
+  justify-content: flex-start;
+}
+
 .form-group {
   display: flex;
 
@@ -45,6 +49,9 @@
     padding-left: 14px;
 
     border: 0;
+    &:focus {
+      outline: none;
+    }
   }
   &__icon {
     display: block;
@@ -59,6 +66,106 @@
 
     font-size: 15px;
     line-height: 35px;
+  }
+  &._left-icon {
+    .form-group__icon {
+      border-right: 1px solid #dedede;
+      border-left: 0;
+    }
+  }
+}
+
+.form-select {
+  position: relative;
+  &:after {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+
+    content: "";
+    transform: translateY(-50%);
+
+    @include bg($select-drop);
+  }
+  &._label {
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &._statistics {
+    width: 100%;
+
+    justify-content: space-between;
+    .form-select__field {
+      width: 137px;
+    }
+  }
+  &__label {
+    text-transform: uppercase;
+
+    color: #666;
+
+    font-size: 12px;
+    font-weight: 700;
+  }
+  &__field {
+    box-sizing: border-box;
+    height: 26px;
+    padding: 0 5px;
+
+    text-transform: uppercase;
+
+    color: #999;
+    border-color: #dedede;
+    border-radius: 0;
+    background: #fff;
+
+    font-size: 12px;
+
+    appearance: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.form-period {
+  align-items: center;
+  @extend ._flex;
+  &__label {
+    margin: 0 10px;
+
+    text-transform: uppercase;
+
+    color: #666;
+
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .form-group {
+    height: 26px;
+    &__icon {
+      margin-right: 5px;
+      margin-left: 0;
+
+      line-height: 26px;
+      .fa {
+        position: relative;
+        top: -2px;
+      }
+    }
+    &__field {
+      box-sizing: border-box;
+      width: 103px;
+      padding-left: 0;
+
+      color: #999;
+
+      font-size: 12px;
+
+      appearance: none;
+    }
   }
 }
 
@@ -75,6 +182,31 @@
       }
       &:nth-child(odd) {
         background: #f4f4f4;
+      }
+    }
+  }
+  &._colored {
+    th {
+      padding: 10px 5px;
+
+      color: #fff;
+      background: $blue;
+
+      font-size: 14px;
+      font-weight: 400;
+    }
+    tfoot {
+      td {
+        text-align: center;
+
+        color: #666;
+        background: #d8d8d8;
+
+        font-size: 14px;
+        font-weight: 700;
+        &:first-child {
+          text-align: left;
+        }
       }
     }
   }

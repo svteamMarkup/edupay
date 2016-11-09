@@ -1,0 +1,21 @@
+.filter-block {
+  &__item {
+    padding: 8px;
+
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #8a8a8a;
+
+    font-size: 12px;
+
+    @extend .white-block;
+    &:hover,
+    &._active {
+      color: #787878;
+      background: #e8e8e8;
+      box-shadow: inset 0 0 3px rgba(#000, .15);
+    }
+  }
+}

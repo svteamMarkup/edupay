@@ -1,0 +1,4 @@
+mixin filter-block(items)
+  .filter-block._flex._flex-start
+    - each item in items
+      a(href="#" title="").filter-block__item!=item

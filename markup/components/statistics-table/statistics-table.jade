@@ -1,0 +1,59 @@
+mixin statistics-table(data)
+  .statistics-table
+    .statistics-table-top
+      .statistics-table-top__item._first
+        .form-select._label._statistics
+          label.form-select__label По сайту:
+          select.form-select__field
+            option Все
+
+      .statistics-table-top__item._second
+        .form-select._label._statistics
+          label.form-select__label Субаккаунт: 
+          select.form-select__field
+            option Все
+
+      .statistics-table-top__item
+        .form-period
+          label.form-period__label Период с:
+          .form-group._iconed._left-icon
+            .form-group__icon
+              i.fa.fa-calendar
+            input(type="date").form-group__field
+          label.form-period__label По:
+          .form-group._iconed._left-icon
+            .form-group__icon
+              i.fa.fa-calendar
+            input(type="date").form-group__field
+
+    table.table._zebra._colored.table-statistics
+      thead
+        tr
+          th Дата
+          th Сайт
+          th Трафик(хиты)
+          th Трафик(уники)
+          th Ратио
+          th Регистрации
+          th Счета
+          th Оплата
+      tfoot
+        tr
+          td(colspan="2") ВСЕГО
+          td 5 150
+          td 4 120
+          td 1:10
+          td 945
+          td 456
+          td 9 900 999 руб
+      tbody
+        - for (var i = 0; i < 5; i++)
+          tr
+            td 16.05.2011
+            td www.dietaonline.ru
+            td 150
+            td 120
+            td 1:10
+            td 45
+            td 10
+            td 500 000 руб
