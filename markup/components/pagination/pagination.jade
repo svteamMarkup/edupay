@@ -1,0 +1,13 @@
+mixin pagination(data)
+  .pagination
+    a(href="#" title="").pagination__item._control._prev
+      i.fa.fa-chevron-left
+      span Предыдущая
+    a(href="#" title="").pagination__item._active 1
+    a(href="#" title="").pagination__item 2
+    a(href="#" title="").pagination__item 3
+    a(href="#" title="").pagination__item ...
+    a(href="#" title="").pagination__item 8
+    a(href="#" title="").pagination__item._control._next
+      span Следующая
+      i.fa.fa-chevron-right

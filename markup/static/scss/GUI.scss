@@ -82,3 +82,32 @@
     padding: 10px 5px;
   }
 }
+
+.button {
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+
+  border: 0;
+  &._white {
+    display: inline-block;
+
+    padding: 10px 18px;
+
+    @extend .white-block;
+    &:hover {
+      background: $green;
+      box-shadow: none;
+    }
+  }
+  &._green-text {
+    color: $green;
+    &:hover {
+      color: #fff;
+    }
+  }
+  &._small {
+    text-transform: uppercase;
+
+    font-size: 12px;
+  }
+}

@@ -3668,7 +3668,7 @@ blockquote {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
-.white-block, .last-paid, .wallet-block {
+.white-block, .button._white, .last-paid, .news-item, .pagination__item, .wallet-block {
   background: #fff;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
@@ -3680,7 +3680,7 @@ blockquote {
   font-weight: 700;
 }
 
-._flex {
+._flex, .news-item__top, .pagination {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3745,6 +3745,36 @@ blockquote {
 
 .table td {
   padding: 10px 5px;
+}
+
+.button {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  border: 0;
+}
+
+.button._white {
+  display: inline-block;
+  padding: 10px 18px;
+}
+
+.button._white:hover {
+  background: #72b91a;
+  box-shadow: none;
+}
+
+.button._green-text {
+  color: #72b91a;
+}
+
+.button._green-text:hover {
+  color: #fff;
+}
+
+.button._small {
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 html,
@@ -3855,48 +3885,6 @@ body {
   text-decoration: underline;
 }
 
-.last-paid {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 250px;
-  margin-top: 21px;
-  padding-top: 14px;
-  padding-right: 22px;
-  padding-bottom: 15px;
-  padding-left: 22px;
-}
-
-.last-paid__title {
-  margin-bottom: 12px;
-}
-
-.last-paid-table tr td {
-  color: #666;
-  font-size: 12px;
-}
-
-.last-paid-table tr td:first-child {
-  color: #72b91a;
-  font-size: 14px;
-}
-
-.last-paid-table tr td:last-child {
-  color: #333;
-  font-size: 14px;
-}
-
-.last-paid-table tr td:last-child span {
-  color: #7d7d7d;
-}
-
-.money-chart {
-  margin-top: 16px;
-}
-
-.money-chart img {
-  width: 100%;
-}
-
 .header {
   position: relative;
   z-index: 3;
@@ -3994,6 +3982,40 @@ body {
   font-size: 14px;
 }
 
+.last-paid {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 250px;
+  margin-top: 21px;
+  padding-top: 14px;
+  padding-right: 22px;
+  padding-bottom: 15px;
+  padding-left: 22px;
+}
+
+.last-paid__title {
+  margin-bottom: 12px;
+}
+
+.last-paid-table tr td {
+  color: #666;
+  font-size: 12px;
+}
+
+.last-paid-table tr td:first-child {
+  color: #72b91a;
+  font-size: 14px;
+}
+
+.last-paid-table tr td:last-child {
+  color: #333;
+  font-size: 14px;
+}
+
+.last-paid-table tr td:last-child span {
+  color: #7d7d7d;
+}
+
 .menu {
   box-sizing: border-box;
   width: 100%;
@@ -4026,6 +4048,113 @@ body {
   left: 37px;
   color: #a5a5a5;
   font-size: 20px;
+}
+
+.money-chart {
+  margin-top: 16px;
+}
+
+.money-chart img {
+  width: 100%;
+}
+
+.news-item {
+  position: relative;
+  padding: 30px 20px 25px 83px;
+}
+
+.news-item:before {
+  position: absolute;
+  top: 29px;
+  left: 20px;
+  content: "";
+  background-image: url(../images/png-sprite/96dpi/sprite.png);
+  background-position: -68px -91px;
+  width: 39px;
+  height: 39px;
+  background-size: 241px, 155px;
+  background-repeat: no-repeat;
+}
+
+.news-item._unreaded {
+  background: #fefade;
+}
+
+.news-item__title {
+  color: #333;
+  font-size: 18px;
+}
+
+.news-item__date {
+  color: #666;
+  font-size: 12px;
+}
+
+.news-item__date .fa {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.news-item__text p {
+  margin-top: 16px;
+  margin-bottom: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.news-item__button {
+  margin-top: 16px;
+}
+
+.pagination {
+  margin: 40px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination__item {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 4px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+  color: #8a8a8a;
+  font-size: 12px;
+  line-height: 32px;
+}
+
+.pagination__item:hover, .pagination__item._active {
+  box-sizing: border-box;
+  border-bottom: 2px solid #72b91a;
+  background: #e8e8e8;
+}
+
+.pagination__item._control {
+  width: auto;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.pagination__item._prev {
+  padding-right: 21px;
+  padding-left: 15px;
+}
+
+.pagination__item._prev span {
+  padding-left: 10px;
+}
+
+.pagination__item._next {
+  padding-right: 15px;
+  padding-left: 21px;
+}
+
+.pagination__item._next span {
+  padding-right: 10px;
 }
 
 .wallet-block {
