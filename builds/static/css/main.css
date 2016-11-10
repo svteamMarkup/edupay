@@ -3668,7 +3668,7 @@ blockquote {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
-.white-block, .button._white, .filter-block__item, .last-paid, .news-item, .pagination__item, .statistics-table, .wallet-block {
+.white-block, .button._white, .adv-chanel-form, .filter-block__item, .last-paid, .news-item, .pagination__item, .statistics-table, .wallet-block {
   background: #fff;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
@@ -3678,6 +3678,14 @@ blockquote {
   color: #666;
   font-size: 14px;
   font-weight: 700;
+}
+
+.title._big {
+  font-size: 20px;
+}
+
+.title._blue {
+  color: #6db0e0;
 }
 
 ._flex, .form-period, .news-item__top, .pagination, .statistics-table-top {
@@ -3701,6 +3709,53 @@ blockquote {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+._center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__label {
+  color: #333;
+  font-size: 15px;
+}
+
+.form__label._required:after {
+  position: relative;
+  display: inline-block;
+  margin-left: 3px;
+  content: "*";
+  color: #6db0e0;
+}
+
+.form__label._adv-chanel {
+  width: 170px;
+}
+
+.form__row {
+  margin-bottom: 15px;
+}
+
+.form-field {
+  box-sizing: border-box;
+  height: 35px;
+  padding-left: 10px;
+  border: 1px solid #dedede;
+}
+
+.form-field:focus {
+  outline: none;
+}
+
+.form-field._adv-chanel {
+  width: calc(100% - 158px);
+}
+
+.form-field._textarea {
+  height: 150px;
+  padding-top: 10px;
 }
 
 .form-group {
@@ -3785,6 +3840,12 @@ blockquote {
   width: 137px;
 }
 
+.form-select._adv-chanel .form-select__field {
+  width: 465px;
+  height: 35px;
+  padding-left: 15px;
+}
+
 .form-select__label {
   text-transform: uppercase;
   color: #666;
@@ -3809,6 +3870,14 @@ blockquote {
 
 .form-select__field:focus {
   outline: none;
+}
+
+.form-checkbox__label {
+  position: relative;
+  top: 1px;
+  padding-left: 5px;
+  color: #333;
+  font-size: 15px;
 }
 
 .form-period {
@@ -3903,7 +3972,7 @@ blockquote {
 }
 
 .button._white:hover {
-  background: #72b91a;
+  background: #eeeeee;
   box-shadow: none;
 }
 
@@ -3918,6 +3987,25 @@ blockquote {
 .button._small {
   text-transform: uppercase;
   font-size: 12px;
+}
+
+.button._green {
+  padding: 10px 18px;
+  color: #fff;
+  background: #72b91a;
+}
+
+.button._green:hover {
+  background: #83ca2b;
+}
+
+.form-btn-group._adv-chanel {
+  margin-top: 35px;
+  margin-left: 158px;
+}
+
+.form-btn-group .button {
+  margin-right: 10px;
 }
 
 html,
@@ -3963,6 +4051,11 @@ body {
 
 .layout-content__right {
   width: 250px;
+}
+
+.adv-chanel-form {
+  margin-top: 20px;
+  padding: 30px 20px;
 }
 
 .balance-block {

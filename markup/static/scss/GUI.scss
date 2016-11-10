@@ -18,6 +18,12 @@
 
   font-size: 14px;
   font-weight: 700;
+  &._big {
+    font-size: 20px;
+  }
+  &._blue {
+    color: $blue;
+  }
 }
 
 ._flex {
@@ -33,6 +39,55 @@
 
 ._flex-start {
   justify-content: flex-start;
+}
+
+._center {
+  align-items: center;
+}
+
+.form {
+  &__label {
+    color: #333;
+
+    font-size: 15px;
+    &._required {
+      &:after {
+        position: relative;
+
+        display: inline-block;
+
+        margin-left: 3px;
+
+        content: "*";
+
+        color: $blue;
+      }
+    }
+    &._adv-chanel {
+      width: 170px;
+    }
+  }
+  &__row {
+    margin-bottom: 15px;
+  }
+}
+
+.form-field {
+  box-sizing: border-box;
+  height: 35px;
+  padding-left: 10px;
+
+  border: 1px solid #dedede;
+  &:focus {
+    outline: none;
+  }
+  &._adv-chanel {
+    width: calc(100% - 158px);
+  }
+  &._textarea {
+    height: 150px;
+    padding-top: 10px;
+  }
 }
 
 .form-group {
@@ -101,6 +156,13 @@
       width: 137px;
     }
   }
+  &._adv-chanel {
+    .form-select__field {
+      width: 465px;
+      height: 35px;
+      padding-left: 15px;
+    }
+  }
   &__label {
     text-transform: uppercase;
 
@@ -127,6 +189,19 @@
     &:focus {
       outline: none;
     }
+  }
+}
+
+.form-checkbox {
+  &__label {
+    position: relative;
+    top: 1px;
+
+    padding-left: 5px;
+
+    color: #333;
+
+    font-size: 15px;
   }
 }
 
@@ -227,7 +302,7 @@
 
     @extend .white-block;
     &:hover {
-      background: $green;
+      background: #fff - #111;
       box-shadow: none;
     }
   }
@@ -241,5 +316,24 @@
     text-transform: uppercase;
 
     font-size: 12px;
+  }
+  &._green {
+    padding: 10px 18px;
+
+    color: #fff;
+    background: $green;
+    &:hover {
+      background: $green + #111;
+    }
+  }
+}
+
+.form-btn-group {
+  &._adv-chanel {
+    margin-top: 35px;
+    margin-left: 158px;
+  }
+  .button {
+    margin-right: 10px;
   }
 }

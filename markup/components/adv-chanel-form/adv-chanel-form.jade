@@ -1,0 +1,27 @@
+mixin adv-chanel-form(data)
+  .adv-chanel-form
+    form.form
+      .form__row._flex._center
+        label.form__label._adv-chanel-form._required Кампания
+        .form-select._adv-chanel
+          select.form-select__field
+            option Выбрать из списка
+        .form-checkbox
+          input(type="checkbox" value="" id="free-url").form-checkbox__field
+          label(for="free-url").form-checkbox__label Использовать свободный URL
+
+      .form__row._flex._center
+        label.form__label._adv-chanel-form._required Канал рекламы
+        input(type="text" value="").form-field._adv-chanel
+
+      .form__row._flex
+        label.form__label._adv-chanel-form Описание
+        textarea.form-field._textarea._adv-chanel
+
+      .form__row._flex._center
+        label.form__label._adv-chanel-form URL целевой страницы
+        input(type="text" value="").form-field._adv-chanel
+
+      .form-btn-group._adv-chanel
+        input(type="submit" value="Сохранить").button._green
+        input(type="submit" value="Отменить").button._white
