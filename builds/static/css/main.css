@@ -3668,7 +3668,7 @@ blockquote {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
-.white-block, .button._white, .adv-chanel-form, .filter-block__item, .last-paid, .news-item, .pagination__item, .statistics-table, .wallet-block {
+.white-block, .button._white, .adv-chanel-form, .filter-block__item, .last-paid, .news-item, .pagination__item, .sites-block, .statistics-table, .wallet-block {
   background: #fff;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
@@ -3773,7 +3773,14 @@ blockquote {
           justify-content: space-between;
 }
 
+.form-group._sites-block .form-group__field {
+  width: 250px;
+  color: #999;
+  font-size: 12px;
+}
+
 .form-group__field {
+  height: auto;
   padding-left: 14px;
   border: 0;
 }
@@ -4407,6 +4414,35 @@ body {
 
 .pagination__item._next span {
   padding-right: 10px;
+}
+
+.sites-block__image {
+  padding: 20px;
+  background: #d8d8d8;
+}
+
+.sites-block__content {
+  padding: 30px 20px;
+}
+
+.sites-block__title {
+  margin-bottom: 15px;
+  color: #6db0e0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.sites-block__text {
+  color: #666;
+  font-size: 14px;
+}
+
+.sites-block__link {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #666;
+  font-size: 12px;
 }
 
 .statistics-table {

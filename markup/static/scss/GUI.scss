@@ -100,7 +100,17 @@
 
   align-items: stretch;
   justify-content: space-between;
+  &._sites-block {
+    .form-group__field {
+      width: 250px;
+
+      color: #999;
+
+      font-size: 12px;
+    }
+  }
   &__field {
+    height: auto;
     padding-left: 14px;
 
     border: 0;
