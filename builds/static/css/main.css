@@ -3663,12 +3663,22 @@ blockquote {
   clip: auto;
 }
 
+.link {
+  margin-left: 20px;
+  color: #72b91a;
+  font-size: 16px;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
 .blue-block, .balance-block {
   background: #6db0e0;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
-.white-block, .button._white, .adv-chanel-form, .filter-block__item, .last-paid, .news-item, .pagination__item, .sites-block, .statistics-table, .wallet-block {
+.white-block, .button._white, .adv-chanel-form, .filter-block__item, .last-paid, .login-form-layout, .news-item, .pagination__item, .sites-block, .statistics-table, .wallet-block {
   background: #fff;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
@@ -3734,6 +3744,10 @@ blockquote {
   width: 170px;
 }
 
+.form__label._login {
+  width: 120px;
+}
+
 .form__row {
   margin-bottom: 15px;
 }
@@ -3756,6 +3770,10 @@ blockquote {
 .form-field._textarea {
   height: 150px;
   padding-top: 10px;
+}
+
+.form-field._half {
+  width: 50%;
 }
 
 .form-group {
@@ -4273,6 +4291,11 @@ body {
 
 .last-paid-table tr td:last-child span {
   color: #7d7d7d;
+}
+
+.login-form-layout {
+  margin-top: 20px;
+  padding: 30px 20px;
 }
 
 .menu {

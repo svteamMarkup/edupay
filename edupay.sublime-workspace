@@ -4,28 +4,120 @@
 		"selected_items":
 		[
 			[
+				"form",
+				"form-group"
+			],
+			[
 				"marign",
-				"margin-bottom"
-			],
-			[
-				"pad",
-				"padding-bottom"
-			],
-			[
-				"text",
-				"text-decoration"
+				"margin-top"
 			],
 			[
 				"fon",
 				"font-size"
 			],
 			[
-				"backgroun",
-				"background-size"
+				"margin",
+				"margin-right"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"bord",
+				"border-box"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"fo",
+				"form-checkbox"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"sta",
+				"statistics-table"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"wid",
+				"width"
 			],
 			[
 				"back",
-				"background-size\tstyl"
+				"background"
+			],
+			[
+				"news",
+				"news-item\t(news-list.scss)"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"tetx",
+				"text-decoration"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"bal",
+				"balance-block"
+			],
+			[
+				"bala",
+				"balance-block__row"
+			],
+			[
+				"head",
+				"header-user-info\t(header.scss)"
+			],
+			[
+				"hea",
+				"header-user"
+			],
+			[
+				"backgroun",
+				"background-size"
 			],
 			[
 				"bac",
@@ -54,10 +146,6 @@
 			[
 				"js-",
 				"js-parallax-window\t(deal.php)"
-			],
-			[
-				"margin",
-				"margin-bottom\tstyl"
 			],
 			[
 				"comm",
@@ -92,10 +180,6 @@
 				"image-src"
 			],
 			[
-				"font",
-				"font-size\tstyl"
-			],
-			[
 				"paddin",
 				"padding-bottom\tstyl"
 			],
@@ -110,10 +194,6 @@
 			[
 				"data-va",
 				"data-validation-length"
-			],
-			[
-				"form",
-				"form-validator"
 			],
 			[
 				"js-form",
@@ -154,10 +234,6 @@
 			[
 				"my",
 				"myPlacemarkParking2"
-			],
-			[
-				"padd",
-				"padding\tstyl"
 			],
 			[
 				"block",
@@ -260,10 +336,6 @@
 				"background-color\tstyl"
 			],
 			[
-				"max",
-				"max-width\tstyl"
-			],
-			[
 				"wa-blog-bet",
 				"wa-blog-better-item"
 			],
@@ -278,10 +350,6 @@
 			[
 				"reg",
 				"registration-form"
-			],
-			[
-				"head",
-				"header"
 			],
 			[
 				"marg",
@@ -368,10 +436,6 @@
 				"hasClass"
 			],
 			[
-				"borde",
-				"border-box"
-			],
-			[
 				"product",
 				"product-list\t(index.php)"
 			],
@@ -450,70 +514,6 @@
 			[
 				"c-las",
 				"c-last-update-top"
-			],
-			[
-				"c-la",
-				"c-last-update-top"
-			],
-			[
-				"produc",
-				"product-list"
-			],
-			[
-				"clea",
-				"clear\t(index.php)"
-			],
-			[
-				"conte",
-				"content-area"
-			],
-			[
-				"gra",
-				"graph-line-text\t(index.php)"
-			],
-			[
-				"grap",
-				"graph-line-text\t(index.php)"
-			],
-			[
-				"_over",
-				"_overnundred"
-			],
-			[
-				"c-ex",
-				"c-expert-opinion__column"
-			],
-			[
-				"ta",
-				"target\tAttr"
-			],
-			[
-				"conten",
-				"content-center\t(index.php)"
-			],
-			[
-				"уче",
-				"учета"
-			],
-			[
-				"кад",
-				"кадрового"
-			],
-			[
-				"запр",
-				"зарплатой"
-			],
-			[
-				"эксп",
-				"экспресс-обследование"
-			],
-			[
-				"беспта",
-				"бесплатное"
-			],
-			[
-				"clear",
-				"clearme"
 			]
 		]
 	},
@@ -592,10 +592,55 @@
 	"expanded_folders":
 	[
 		"/Users/extiser/git/svteam/edupay",
-		"/Users/extiser/git/svteam/edupay/markup"
+		"/Users/extiser/git/svteam/edupay/markup",
+		"/Users/extiser/git/svteam/edupay/markup/components",
+		"/Users/extiser/git/svteam/edupay/markup/components/sites-block/assets",
+		"/Users/extiser/git/svteam/edupay/markup/components/wallet-block",
+		"/Users/extiser/git/svteam/edupay/markup/pages",
+		"/Users/extiser/git/svteam/edupay/markup/static",
+		"/Users/extiser/git/svteam/edupay/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/svteam/edupay/markup/components/sites-block/sites-block.scss",
+		"/Users/extiser/git/svteam/edupay/markup/pages/sites.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/sites-block/sites-block.jade",
+		"/Users/extiser/git/svteam/edupay/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/svteam/edupay/markup/pages/_layout.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/adv-chanel-form/adv-chanel-form.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/adv-chanel-form/adv-chanel-form.jade",
+		"/Users/extiser/git/svteam/edupay/markup/pages/adv-chanel.jade",
+		"/Users/extiser/git/svteam/edupay/markup/pages/statistics.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/statistics-table/statistics-table.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/statistics-table/statistics-table.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/filter-block/filter-block.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/filter-block/filter-block.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/news-list/news-list.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/pagination/pagination.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/pagination/pagination.jade",
+		"/Users/extiser/git/svteam/edupay/markup/pages/news.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/news-list/news-list.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/footer/footer.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/footer/footer.scss",
+		"/Users/extiser/git/svteam/edupay/markup/pages/index.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/menu/menu.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/last-paid/last-paid.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/last-paid/last-paid.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/balance-block/balance-block.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/wallet-block/wallet-block.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/money-chart/money-chart.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/money-chart/money-chart.scss",
+		"/Users/extiser/git/svteam/edupay/markup/static/scss/common.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/wallet-block/wallet-block.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/wallet-block/wallet-block.js",
+		"/Users/extiser/git/svteam/edupay/markup/components/balance-block/balance-block.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/menu/menu.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/header/header.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/header/header.jade",
+		"/Users/extiser/git/svteam/edupay/markup/static/scss/vars.scss",
+		"/Users/extiser/git/svteam/edupay/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/head/data/data.js",
+		"/Users/extiser/git/svteam/edupay/markup/components/default_component_scheme.json",
 		"/Users/extiser/git/1studio/ulabs.pro/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/1studio/ulabs.pro/markup/pages/index.jade",
 		"/Users/extiser/git/1studio/ulabs.pro/markup/static/scss/common.scss",
@@ -684,50 +729,11 @@
 		"/Users/extiser/git/default-template/sovets24/static/css/main.min.css",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/templates/main/js/main.js",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/vacancy-plate.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-audience.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-rubric.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/helpers.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/.git/info/exclude",
-		"/Users/extiser/MAMP/wiseadvice.ru/.git/info/exclude",
-		"/Users/extiser/Downloads/temp/Новая папка/waru_28_09_16_backup/.access.php",
-		"/Users/extiser/git/nnm/markup/pages/reg.jade",
-		"/Users/extiser/git/nnm/markup/components/registration/registration.jade",
-		"/Users/extiser/git/nnm/markup/components/registration/registration.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/footer/footer.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-2-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/header/header.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/header/header.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/registration/registration.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/registration/registration.jade",
-		"/Users/extiser/git/dietplatnik/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/dietplatnik/markup/pages/profile.jade",
-		"/Users/extiser/git/dietplatnik/tars-config.js",
-		"/Users/extiser/git/dietplatnik/markup/components/user-profile/user-profile.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/user-profile/user-profile.scss",
-		"/Users/extiser/git/dietplatnik/markup/pages/_layout.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-4-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-4-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-3.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1_2.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/footer/footer.scss",
-		"/Users/extiser/git/dietplatnik/markup/pages/index.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/peoples/peoples.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/peoples/peoples.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/master/master.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/master/master.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/advantages/advantages.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/advantages/advantages.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/baner-main/baner-main.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/baner-main/baner-main.scss",
-		"/Users/extiser/git/dietplatnik/markup/static/scss/vars.scss"
+		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-audience.styl"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -767,6 +773,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"form-group",
+			"button",
+			"form",
+			"title",
+			".form-group",
 			".slider-service-main-item",
 			"__container",
 			"leader",
@@ -889,12 +900,7 @@
 			"taи",
 			"tar",
 			"radio-block",
-			"К какому",
-			"Подходит ли вам",
-			"Реализованные",
-			"руали",
-			"c-prices",
-			"font-size: 20px;"
+			"К какому"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -902,6 +908,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			".form-select",
 			"wa-blog-list-item-tags__item clearfix",
 			" ",
 			" <div class=\"js-parallax-window parallax-window\" ",
@@ -1028,8 +1035,7 @@
 			"sand_kg",
 			"sand_m",
 			"cement",
-			"bags",
-			"plaster_kg"
+			"bags"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1088,7 +1094,7 @@
 	"project": "edupay.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":

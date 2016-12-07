@@ -1,0 +1,19 @@
+mixin login-form(data)
+  .login-form
+    .title._big._blue ВОЙТИ
+
+    form.form.login-form-layout
+      .form__row._flex._center._flex-start
+        label.form__label._required._login Логин
+        input(type="text" value="").form-field._half
+
+      .form__row._flex._center._flex-start
+        label.form__label._required._login Пароль
+        input(type="text" value="").form-field._half
+
+      .form__row
+        input(type="submit" value="Войти").button._green
+        a(href="#" title="").link Регистрация
+
+      p Служба поддержки skype:
+        a(href="#" title="").link redvoronik

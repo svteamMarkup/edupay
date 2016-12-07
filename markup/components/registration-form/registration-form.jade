@@ -1,0 +1,27 @@
+mixin registration-form(data)
+  .registration-form
+    .title._big._blue Регистрация
+
+    form.form.login-form-layout
+      .form__row._flex._center._flex-start
+        label.form__label._required._login Ваш логин
+        input(type="text" value="").form-field._half
+
+      .form__row._flex._center._flex-start
+        label.form__label._required._login Емейл
+        input(type="text" value="").form-field._half
+
+      .form__row._flex._center._flex-start
+        label.form__label._required._login Пароль
+        input(type="text" value="").form-field._half
+
+      .form__row._flex._center._flex-start
+        label.form__label._required._login Пароль еще раз
+        input(type="text" value="").form-field._half
+
+      .form__row
+        input(type="submit" value="Зарегистрироваться").button._green
+        input(type="submit" value="Отменить").button._white
+
+      p Служба поддержки skype:
+        a(href="#" title="").link redvoronik
