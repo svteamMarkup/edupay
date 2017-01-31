@@ -1,0 +1,52 @@
+.advert-table {
+  @extend .white-block;
+
+  padding: 20px 20px 25px;
+  &__title {
+    text-transform: uppercase;
+
+    color: #666;
+
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.advert-table-control {
+  @extend .white-block;
+
+  padding: 8px;
+
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #8a8a8a;
+
+  font-size: 12px;
+  &:hover {
+    color: #fff;
+    background: $green;
+  }
+}
+
+.table-advert {
+  margin-top: 20px;
+  th {
+    padding-left: 30px;
+
+    text-align: left;
+
+    line-height: 1;
+  }
+  tbody {
+    td {
+      color: #666;
+
+      font-size: 14px;
+      &._green {
+        color: $green;
+      }
+    }
+  }
+}

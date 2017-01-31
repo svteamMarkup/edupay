@@ -1,0 +1,35 @@
+mixin advert-table(data)
+  .advert-table
+    .advert-table__title История поиска
+    table.table._zebra._colored.table-advert
+      thead
+        tr
+          th
+          th
+          th Логин
+          th Webmoney
+          th WMID
+          th Сертификат
+          th Дата рег. <br>кошелька 
+          th E-mail
+          th ICQ
+          th Статус
+      tbody
+        - for (var i = 0; i < 5; i++)
+          tr
+            td
+              ._flex._center._flex-start
+                a(href="#" title="").advert-table-control.fa.fa-key
+                a(href="#" title="").advert-table-control.fa.fa-pencil
+                a(href="#" title="").advert-table-control.fa.fa-times
+            td 
+              a(href="#" title="").advert-table-control.fa.fa-file-text-o
+            td 55 / saratoga
+            td Z264595894038
+            td 182527150722
+            td Персон
+            td 2006.11.06
+            td._green vagemailbox@gmail.com
+            td 466 789 45
+            td
+              a(href="#" title="").button._small._red-text Заблокировать

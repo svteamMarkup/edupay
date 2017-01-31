@@ -1,0 +1,11 @@
+mixin news-add(data)
+  .news-add
+    .news-add__title.title._blue ДОбавить новость
+
+    form.news-add-form.form
+      .form__row._flex._center
+        label.form__label._adv-chanel-form._required Название
+        input(type="text" value="").form-field._adv-chanel
+      .form__row._flex
+        label.form__label._adv-chanel-form Текст
+        textarea.form-field._textarea._adv-chanel._add-news

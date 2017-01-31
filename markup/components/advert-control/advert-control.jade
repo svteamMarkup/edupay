@@ -1,0 +1,39 @@
+mixin advert-control(data)
+  .advert-control._flex
+    .advert-control__block
+      .advert-control-item
+        ._flex._center._flex-start
+          .advert-control-item__title.title._blue Поиск адверта<br>по профилю
+          .advert-control-item-search._flex._flex-start._stretch
+            input(type="text" value="").form-field._advert-control
+            .form-search-btn
+              i.fa.fa-search
+              input(type="submit" value="").form-search-btn__trigger
+        .advert-control-filter._flex
+          - var filterItems = ['Логин','SID','E-mail','WMID','WMR','ICQ','IP'];
+          - each item in filterItems
+            a(href="#" title="").advert-control-filter__item=item
+
+    .advert-control__block
+      .advert-control-item
+        ._flex._center._flex-start
+          .advert-control-item__title.title._blue Поиск адверта<br>по статистике
+          .advert-control-item-search._flex._flex-start._stretch
+            input(type="text" value="").form-field._advert-control
+            .form-search-btn
+              i.fa.fa-search
+              input(type="submit" value="").form-search-btn__trigger
+        .advert-control-filter._flex
+          - var filterItems = ['по IP','по номеру','по парковке','по источнику'];
+          - each item in filterItems
+            a(href="#" title="").advert-control-filter__item=item
+
+    .advert-control__block
+      .advert-control-item
+        ._flex._center
+          .advert-control-item__title.title._blue Блокировка SID
+          input(type="text" value="").form-field._advert-control
+        .advert-control-buttons._flex
+          a(href="#" title="").button._small._red-text Заблокировать
+          a(href="#" title="").button._small._green-bordered разблокировать
+          a(href="#" title="").button._small._gray-text список

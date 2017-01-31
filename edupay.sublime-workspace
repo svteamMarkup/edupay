@@ -4,24 +4,60 @@
 		"selected_items":
 		[
 			[
-				"form",
-				"form-group"
+				"_gree",
+				"_green\t(GUI.scss)"
 			],
 			[
 				"marign",
-				"margin-top"
+				"margin-top\t(GUI.scss)"
+			],
+			[
+				"text",
+				"text-decoration\t(GUI.scss)"
 			],
 			[
 				"fon",
 				"font-size"
 			],
 			[
-				"margin",
-				"margin-right"
+				"filter",
+				"filterItems"
+			],
+			[
+				"form",
+				"form-search-btn"
+			],
+			[
+				"news",
+				"news-add"
 			],
 			[
 				"pad",
-				"padding-top"
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"form__",
+				"form__row"
 			],
 			[
 				"bord",
@@ -40,10 +76,6 @@
 				"form"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"sta",
 				"statistics-table"
 			],
@@ -54,10 +86,6 @@
 			[
 				"box-s",
 				"box-sizing"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"flex",
@@ -76,24 +104,12 @@
 				"background"
 			],
 			[
-				"news",
-				"news-item\t(news-list.scss)"
-			],
-			[
-				"tex",
-				"text-transform"
-			],
-			[
 				"tetx",
 				"text-decoration"
 			],
 			[
 				"inl",
 				"inline-block"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"max",
@@ -498,22 +514,6 @@
 			[
 				"radio",
 				"radio-block\t(index.php)"
-			],
-			[
-				"radio-blo",
-				"radio-block-over"
-			],
-			[
-				"link",
-				"linkHolders"
-			],
-			[
-				"radi",
-				"radioBlockUi"
-			],
-			[
-				"c-las",
-				"c-last-update-top"
 			]
 		]
 	},
@@ -594,32 +594,52 @@
 		"/Users/extiser/git/svteam/edupay",
 		"/Users/extiser/git/svteam/edupay/markup",
 		"/Users/extiser/git/svteam/edupay/markup/components",
-		"/Users/extiser/git/svteam/edupay/markup/components/sites-block/assets",
-		"/Users/extiser/git/svteam/edupay/markup/components/wallet-block",
+		"/Users/extiser/git/svteam/edupay/markup/components/advert-control",
+		"/Users/extiser/git/svteam/edupay/markup/components/statistics-table",
 		"/Users/extiser/git/svteam/edupay/markup/pages",
 		"/Users/extiser/git/svteam/edupay/markup/static",
 		"/Users/extiser/git/svteam/edupay/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/svteam/edupay/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/svteam/edupay/markup/pages/advert.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/advert-control/advert-control.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/advert-control/advert-control.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/advert-table/advert-table.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/advert-table/advert-table.jade",
+		"/Users/extiser/git/svteam/edupay/markup/pages/_layout.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/filter-block/filter-block.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/statistics-table/statistics-table.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/advert-form/advert-form.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/advert-form/advert-form.jade",
+		"/Users/extiser/git/svteam/edupay/markup/pages/adv-chanel.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/news-add/news-add.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/news-add/news-add.jade",
+		"/Users/extiser/git/svteam/edupay/markup/pages/news-add.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/menu/menu.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/news-redact/news-redact.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/news-list/news-list.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/news-redact/news-redact.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/news-list/news-list.jade",
+		"/Users/extiser/git/svteam/edupay/markup/pages/news-redact.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/header/header.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/login-form/login-form.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/registration-form/registration-form.scss",
+		"/Users/extiser/git/svteam/edupay/markup/components/registration-form/registration-form.jade",
+		"/Users/extiser/git/svteam/edupay/markup/components/login-form/login-form.jade",
+		"/Users/extiser/git/svteam/edupay/markup/pages/registration.jade",
 		"/Users/extiser/git/svteam/edupay/markup/components/sites-block/sites-block.scss",
 		"/Users/extiser/git/svteam/edupay/markup/pages/sites.jade",
 		"/Users/extiser/git/svteam/edupay/markup/components/sites-block/sites-block.jade",
-		"/Users/extiser/git/svteam/edupay/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/svteam/edupay/markup/pages/_layout.jade",
 		"/Users/extiser/git/svteam/edupay/markup/components/adv-chanel-form/adv-chanel-form.scss",
 		"/Users/extiser/git/svteam/edupay/markup/components/adv-chanel-form/adv-chanel-form.jade",
-		"/Users/extiser/git/svteam/edupay/markup/pages/adv-chanel.jade",
 		"/Users/extiser/git/svteam/edupay/markup/pages/statistics.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/statistics-table/statistics-table.jade",
 		"/Users/extiser/git/svteam/edupay/markup/components/statistics-table/statistics-table.scss",
 		"/Users/extiser/git/svteam/edupay/markup/components/filter-block/filter-block.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/filter-block/filter-block.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/news-list/news-list.scss",
 		"/Users/extiser/git/svteam/edupay/markup/components/pagination/pagination.scss",
 		"/Users/extiser/git/svteam/edupay/markup/components/pagination/pagination.jade",
 		"/Users/extiser/git/svteam/edupay/markup/pages/news.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/news-list/news-list.jade",
 		"/Users/extiser/git/svteam/edupay/markup/components/footer/footer.jade",
 		"/Users/extiser/git/svteam/edupay/markup/components/footer/footer.scss",
 		"/Users/extiser/git/svteam/edupay/markup/pages/index.jade",
@@ -634,9 +654,7 @@
 		"/Users/extiser/git/svteam/edupay/markup/components/wallet-block/wallet-block.jade",
 		"/Users/extiser/git/svteam/edupay/markup/components/wallet-block/wallet-block.js",
 		"/Users/extiser/git/svteam/edupay/markup/components/balance-block/balance-block.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/menu/menu.jade",
 		"/Users/extiser/git/svteam/edupay/markup/components/header/header.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/header/header.jade",
 		"/Users/extiser/git/svteam/edupay/markup/static/scss/vars.scss",
 		"/Users/extiser/git/svteam/edupay/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/svteam/edupay/markup/components/head/data/data.js",
@@ -711,25 +729,7 @@
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/about-company/wa-values-slide-toggle.js",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/infocenter/news-detail.php",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/blog/blog-entry.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/blog/index.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-list-section.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/fonts.styl",
-		"/Users/extiser/Downloads/temp/fix-mobi-direct.txt",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-similar.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-better.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/mixins/variables.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/main.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/blog/wa-subscribe.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/subscribe.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-main.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/blog/wa-blog.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/infocenter/wa-news.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/wa-comments.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/social-sharing.styl",
-		"/Users/extiser/git/default-template/sovets24/static/css/main.min.css",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/templates/main/js/main.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/vacancy-plate.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-audience.styl"
+		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/blog/index.php"
 	],
 	"find":
 	{
@@ -773,6 +773,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"button",
 			"form-group",
 			"button",
 			"form",
@@ -899,8 +900,7 @@
 			"tab",
 			"taи",
 			"tar",
-			"radio-block",
-			"К какому"
+			"radio-block"
 		],
 		"highlight": false,
 		"in_selection": false,

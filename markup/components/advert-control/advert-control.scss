@@ -1,0 +1,44 @@
+.advert-control {
+  @extend .white-block;
+
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  padding: 20px;
+
+  border-left: 4px solid $blue;
+}
+
+.advert-control-item {
+  width: 290px;
+}
+
+.advert-control-item-search {
+  margin-left: 20px;
+}
+
+.advert-control-filter {
+  margin-top: 10px;
+  &__item {
+    padding: 6px 9px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #8a8a8a;
+    border: 1px solid #dedede;
+    border-left: 0;
+
+    font-size: 11px;
+    line-height: 1;
+    &:first-child {
+      border-left: 1px solid #dedede;
+    }
+    &._active {
+      background: #e8e8e8;
+    }
+  }
+}
+
+.advert-control-buttons {
+  margin-top: 20px;
+}

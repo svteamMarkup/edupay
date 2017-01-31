@@ -1,17 +1,15 @@
 .news-item {
   position: relative;
+  @extend .white-block;
 
   padding: 30px 20px 25px 83px;
-
-  @extend .white-block;
   &:before {
     position: absolute;
     top: 29px;
     left: 20px;
+    @include bg($circle-logo);
 
     content: "";
-
-    @include bg($circle-logo);
   }
   &._unreaded {
     background: #fefade;
@@ -46,5 +44,41 @@
   }
   &__button {
     margin-top: 16px;
+  }
+}
+
+.news-item-meta {
+  margin-top: 15px;
+  &__item {
+    margin-right: 12px;
+    padding: 4px 8px 5px;
+
+    text-decoration: none;
+
+    color: #8a8a8a;
+    border: 1px solid #dedede;
+
+    font-size: 12px;
+    line-height: 1;
+    &:hover {
+      transition: all .33s ease-in-out;
+
+      color: #fff;
+      border: 1px solid $green;
+      background: $green;
+      .fa {
+        color: #fff;
+      }
+    }
+    .fa {
+      color: #bcbcbc;
+
+      font-size: 14px;
+    }
+    &._redact {
+      span {
+        padding-left: 5px;
+      }
+    }
   }
 }

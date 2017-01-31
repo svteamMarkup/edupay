@@ -1,5 +1,7 @@
 .filter-block {
   &__item {
+    @extend .white-block;
+
     padding: 8px;
 
     transition: all .2s ease-in-out;
@@ -9,8 +11,6 @@
     color: #8a8a8a;
 
     font-size: 12px;
-
-    @extend .white-block;
     &:hover,
     &._active {
       color: #787878;

@@ -1,0 +1,71 @@
+mixin news-redact(data)
+  .news-redact
+    .news-redact__wrapper._flex._center
+      .news-redact__title.title._blue Новости
+      a(href="#" title="").news-redact__add-news.button._green._small добавить новость
+    
+    .news-list
+      .news-item
+        .news-item__top
+          .news-item__title МТС: активация кастомизированных ЛП
+          .news-item__date 
+            i.fa.fa-calendar
+            span 21.05.2016   15:30
+        .news-item__text 
+          p С сегодняшнего дня оператором МТС были возвращены в работу ранее согласованные и установленные лендинги для вап-проектов.
+
+        .news-item-meta
+          a(href="#" title="").news-item-meta__item._redact
+            i.fa.fa-pencil
+            span Редактировать
+          a(href="#" title="").news-item-meta__item._delete
+            i.fa.fa-times
+
+      .news-item
+        .news-item__top 
+          .news-item__title Регистрация для партнеров
+          .news-item__date 
+            i.fa.fa-calendar
+            span 21.05.2016   15:30
+        .news-item__text 
+          p Партнерская программа по WAP подпискам от LimonBucks!
+
+          p Мы решили WAP сайты вынести в отдельную ПП, с возможностью развития именно этого направления, чтобы дать своим партнерам качественный сервис по WAP подпискам!
+
+          p Основные условия: 
+
+          p 
+            | - Выкуп подписок по всем операторам: МТС до 37р, Билайн до 50р, Мегафон до 50р, Теле2 до 15р. 
+            br
+            | - Более 60 качественных лендингов уже подключенных и постоянно в работе новые.... 
+            br
+            | - 85% отчисления на все логины, для крупных вебмастеров спецусловия!
+            br
+            | - Проект полностью создан и поддерживатся той же командой, что и LimonBucks :)
+
+          p P.S. Для ускорения процесса активации аккаунта после регистрации, пожалуйста, регистрируйтесь под тем же логином, что и на LimonBucks
+          p P.S.2 Если вы обнаружите ошибки или баги, просим не расстраиватся, мы, как всегда, всем все компенсируем и пофиксим!
+          p P.S.3 LimonWAP в первый месяц доступен только для партнеров LimonBucks.com
+
+        .news-item-meta
+          a(href="#" title="").news-item-meta__item._redact
+            i.fa.fa-pencil
+            span Редактировать
+          a(href="#" title="").news-item-meta__item._delete
+            i.fa.fa-times
+
+      .news-item
+        .news-item__top 
+          .news-item__title Бета тестирование
+          .news-item__date 
+            i.fa.fa-calendar
+            span 21.05.2016   15:30
+        .news-item__text 
+          p Запущено Бета тестирование партнерской программы.
+
+        .news-item-meta
+          a(href="#" title="").news-item-meta__item._redact
+            i.fa.fa-pencil
+            span Редактировать
+          a(href="#" title="").news-item-meta__item._delete
+            i.fa.fa-times

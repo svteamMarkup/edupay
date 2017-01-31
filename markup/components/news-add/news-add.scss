@@ -1,0 +1,11 @@
+.news-add {
+  &__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.news-add-form {
+  @extend .white-block;
+  padding: 30px;
+}
