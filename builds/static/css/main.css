@@ -3678,7 +3678,7 @@ blockquote {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
-.white-block, .button._white, .advert-control, .filter-block__item, .advert-table, .advert-table-control, .adv-chanel-form, .news-add-form, .last-paid, .news-item, .login-form-layout, .pagination__item, .sites-block, .statistics-table, .wallet-block {
+.white-block, .button._white, .adv-chanel-form, .advert-control, .advert-table, .advert-table-control, .filter-block__item, .last-paid, .login-form-layout, .news-add-form, .news-item, .pagination__item, .sites-block, .statistics-table, .wallet-block {
   background: #fff;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
@@ -4154,6 +4154,11 @@ body {
   width: 250px;
 }
 
+.adv-chanel-form {
+  margin-top: 20px;
+  padding: 30px 20px;
+}
+
 .advert-control {
   box-sizing: border-box;
   margin-bottom: 40px;
@@ -4194,6 +4199,85 @@ body {
 
 .advert-control-buttons {
   margin-top: 20px;
+}
+
+.advert-table {
+  padding: 20px 20px 25px;
+}
+
+.advert-table__title {
+  text-transform: uppercase;
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.advert-table-control {
+  padding: 8px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+.advert-table-control:hover {
+  color: #fff;
+  background: #72b91a;
+}
+
+.table-advert {
+  margin-top: 20px;
+}
+
+.table-advert th {
+  padding-left: 30px;
+  text-align: left;
+  line-height: 1;
+}
+
+.table-advert tbody td {
+  color: #666;
+  font-size: 14px;
+}
+
+.table-advert tbody td._green {
+  color: #72b91a;
+}
+
+.balance-block {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 690px;
+  padding: 20px 10px 20px 117px;
+  max-height: 97px;
+  color: #fff;
+}
+
+.balance-block:before {
+  position: absolute;
+  top: 10px;
+  left: 21px;
+  display: block;
+  content: "";
+  background-image: url(../images/png-sprite/96dpi/sprite.png);
+  background-position: 0px -91px;
+  width: 64px;
+  height: 64px;
+  background-size: 241px, 155px;
+  background-repeat: no-repeat;
+}
+
+.balance-block__label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.balance-block__summ {
+  font-size: 37px;
+  line-height: 37px;
 }
 
 .filter-block__item {
@@ -4338,86 +4422,41 @@ body {
   font-size: 14px;
 }
 
-.advert-table {
-  padding: 20px 20px 25px;
+.last-paid {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 250px;
+  margin-top: 21px;
+  padding-top: 14px;
+  padding-right: 22px;
+  padding-bottom: 15px;
+  padding-left: 22px;
 }
 
-.advert-table__title {
-  text-transform: uppercase;
+.last-paid__title {
+  margin-bottom: 12px;
+}
+
+.last-paid-table tr td {
   color: #666;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.advert-table-control {
-  padding: 8px;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #8a8a8a;
   font-size: 12px;
 }
 
-.advert-table-control:hover {
-  color: #fff;
-  background: #72b91a;
-}
-
-.table-advert {
-  margin-top: 20px;
-}
-
-.table-advert th {
-  padding-left: 30px;
-  text-align: left;
-  line-height: 1;
-}
-
-.table-advert tbody td {
-  color: #666;
-  font-size: 14px;
-}
-
-.table-advert tbody td._green {
+.last-paid-table tr td:first-child {
   color: #72b91a;
-}
-
-.balance-block {
-  position: relative;
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 690px;
-  padding: 20px 10px 20px 117px;
-  max-height: 97px;
-  color: #fff;
-}
-
-.balance-block:before {
-  position: absolute;
-  top: 10px;
-  left: 21px;
-  display: block;
-  content: "";
-  background-image: url(../images/png-sprite/96dpi/sprite.png);
-  background-position: 0px -91px;
-  width: 64px;
-  height: 64px;
-  background-size: 241px, 155px;
-  background-repeat: no-repeat;
-}
-
-.balance-block__label {
   font-size: 14px;
-  font-weight: 700;
 }
 
-.balance-block__summ {
-  font-size: 37px;
-  line-height: 37px;
+.last-paid-table tr td:last-child {
+  color: #333;
+  font-size: 14px;
 }
 
-.adv-chanel-form {
+.last-paid-table tr td:last-child span {
+  color: #7d7d7d;
+}
+
+.login-form-layout {
   margin-top: 20px;
   padding: 30px 20px;
 }
@@ -4456,6 +4495,14 @@ body {
   font-size: 20px;
 }
 
+.money-chart {
+  margin-top: 16px;
+}
+
+.money-chart img {
+  width: 100%;
+}
+
 .news-add__title {
   font-size: 20px;
   margin-bottom: 20px;
@@ -4463,40 +4510,6 @@ body {
 
 .news-add-form {
   padding: 30px;
-}
-
-.last-paid {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 250px;
-  margin-top: 21px;
-  padding-top: 14px;
-  padding-right: 22px;
-  padding-bottom: 15px;
-  padding-left: 22px;
-}
-
-.last-paid__title {
-  margin-bottom: 12px;
-}
-
-.last-paid-table tr td {
-  color: #666;
-  font-size: 12px;
-}
-
-.last-paid-table tr td:first-child {
-  color: #72b91a;
-  font-size: 14px;
-}
-
-.last-paid-table tr td:last-child {
-  color: #333;
-  font-size: 14px;
-}
-
-.last-paid-table tr td:last-child span {
-  color: #7d7d7d;
 }
 
 .news-item {
@@ -4582,19 +4595,6 @@ body {
   padding-left: 5px;
 }
 
-.login-form-layout {
-  margin-top: 20px;
-  padding: 30px 20px;
-}
-
-.money-chart {
-  margin-top: 16px;
-}
-
-.money-chart img {
-  width: 100%;
-}
-
 .news-redact__wrapper {
   margin-bottom: 30px;
 }
@@ -4658,33 +4658,48 @@ body {
   padding-right: 10px;
 }
 
+.sites-block {
+  margin-bottom: 20px;
+}
+
 .sites-block__image {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 284px;
   padding: 20px;
   background: #d8d8d8;
 }
 
 .sites-block__content {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 675px;
   padding: 30px 20px;
 }
 
 .sites-block__title {
-  margin-bottom: 15px;
-  color: #6db0e0;
   font-size: 26px;
   font-weight: 700;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #6db0e0;
+}
+
+.sites-block__title:hover {
+  color: #7ec1f1;
 }
 
 .sites-block__text {
-  color: #666;
   font-size: 14px;
+  color: #666;
 }
 
 .sites-block__link {
+  font-size: 12px;
   margin-top: 20px;
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #666;
-  font-size: 12px;
 }
 
 .statistics-table {

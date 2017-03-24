@@ -1,34 +1,47 @@
 .sites-block {
+  margin-bottom: 20px;
+
   @extend .white-block;
   &__image {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 284px;
     padding: 20px;
 
     background: #d8d8d8;
   }
   &__content {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 675px;
     padding: 30px 20px;
   }
   &__title {
-    margin-bottom: 15px;
-
-    color: $blue;
-
     font-size: 26px;
     font-weight: 700;
+
+    margin-bottom: 15px;
+
+    text-decoration: none;
+
+    color: $blue;
+    &:hover {
+      color: $blue + #111;
+    }
   }
   &__text {
-    color: #666;
-
     font-size: 14px;
+
+    color: #666;
   }
   &__link {
+    font-size: 12px;
+
     margin-top: 20px;
     margin-bottom: 10px;
 
     text-transform: uppercase;
 
     color: #666;
-
-    font-size: 12px;
   }
 }
