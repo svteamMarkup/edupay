@@ -4691,6 +4691,7 @@ body {
 
 .sites-block__text {
   font-size: 14px;
+  overflow-x: hidden;
   color: #666;
 }
 
