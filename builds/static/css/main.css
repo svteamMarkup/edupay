@@ -3678,7 +3678,7 @@ blockquote {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
-.white-block, .button._white, .adv-chanel-form, .advert-control, .advert-table, .advert-table-control, .filter-block__item, .last-paid, .login-form-layout, .news-add-form, .news-item, .pagination__item, .sites-block, .statistics-table, .wallet-block {
+.white-block, .button._white, .adv-chanel-form, .advert-control, .advert-table, .advert-table-control, .channel-add-form, .filter-block__item, .last-paid, .login-form-layout, .news-add-form, .news-item, .pagination__item, .sites-block, .statistics-table, .wallet-block {
   background: #fff;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
@@ -3791,6 +3791,10 @@ blockquote {
   height: 350px;
 }
 
+.form-field._w80 {
+  width: 80%;
+}
+
 .form-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3883,7 +3887,16 @@ blockquote {
 .form-select._adv-chanel .form-select__field {
   width: 465px;
   height: 35px;
-  padding-left: 15px;
+  padding-left: 150px;
+}
+
+.form-select._sel-chanel {
+  width: 80%;
+}
+
+.form-select._sel-chanel .form-select__field {
+  width: 100%;
+  height: 35px;
 }
 
 .form-select__label {
@@ -4278,6 +4291,15 @@ body {
 .balance-block__summ {
   font-size: 37px;
   line-height: 37px;
+}
+
+.channel-add__title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.channel-add-form {
+  padding: 30px;
 }
 
 .filter-block__item {

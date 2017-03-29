@@ -1,0 +1,10 @@
+.channel-add{
+  &__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+.channel-add-form {
+    @extend .white-block;
+    padding: 30px;
+}
