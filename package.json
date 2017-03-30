@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "directories": {},
   "dependencies": {
+    "clipboard": "^1.6.1",
     "font-awesome": "^4.7.0",
     "highcharts": "^5.0.2",
     "jquery": "^3.1.1",
