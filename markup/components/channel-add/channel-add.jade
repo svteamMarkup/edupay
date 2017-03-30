@@ -1,6 +1,6 @@
 mixin channel-add(data)
-  .channel-add
-    .channel-add__title.title._big._blue Добавить кампанию
+    .channel-add
+      .channel-add__title.title._big._blue Добавить кампанию
       form(method="post" action="").channel-add-form.form
        .form__row._flex._center
          label.form__label._required Кампания
@@ -18,6 +18,6 @@ mixin channel-add(data)
        .form__row._flex
          label.form__label Текст
          textarea(name="text").form-field._textarea._add-news._w80
-       .form-btn-group._adv-chanel
+       .form-btn-group
          input(name="ok" type="submit" value="Добавить").button._green
          input(name="cnc" type="submit" value="Отменить").button._white
