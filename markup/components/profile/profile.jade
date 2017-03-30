@@ -1,0 +1,41 @@
+mixin profile(data)
+  .profile
+    .profile__title.title._big._blue Профиль
+    form(action="" method="post" id="frm").profile-form._flex
+      .profile-form__block._w60._pad-rig
+        .form__row._flex
+          .form__label._blue._up-text Личные данные
+        .form__row-mb30
+          hr.blue-color
+        .form__row-mb20._flex._center
+          label.form__label Никнейм
+          input(name="nickname" type="text" value="").form-field._adv-chanel
+        .form__row-mb20._flex._center
+          label.form__label Вебмани WMR
+          input(name="webmoney" type="text" maxlength="30" value="").form-field._adv-chanel
+        .form__row-mb20._flex._center
+          label.form__label Skype
+          input(name="skype" type="text" value="").form-field._adv-chanel
+        .form__row-mb20._flex._center
+          label.form__label Email
+          input(name="email" type="email" value="").form-field._adv-chanel
+        .form__row-mb20._flex._center
+          label.form__label Телефон
+          input(name="phone" type="tel" value="").form-field._adv-chanel
+      .profile-form__block._w40
+        .form__row._flex
+         .form__label._blue._up-text Пароль
+        .form__row-mb30
+          hr.blue-color
+        .form__row-mb20._flex._center
+          label.form__label Новый пароль
+          input(name="password" type="password" maxlength="30" value="").form-field
+        .form__row-mb20._flex._center
+          label.form__label Еще раз
+          input(name="repeat" type="password" value="").form-field
+        .form__row-mb70._flex._center
+          label.form__label Старый пароль
+          input(name="old_password" type="text" value="").form-field
+        .form-btn-group
+          input(name="ok" type="submit" value="Сохранить изменения").button._green
+          input(name="cnc" type="submit" value="Отменить").button._white

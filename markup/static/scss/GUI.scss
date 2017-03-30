@@ -21,7 +21,10 @@
   background: #fff;
   box-shadow: 1px 1px 5px rgba(#000, .15);
 }
-
+.blue-color
+{
+  color: $blue;
+}
 .title {
   text-transform: uppercase;
 
@@ -84,9 +87,25 @@
     &._login {
       width: 120px;
     }
+    &._blue {
+      color: $blue;
+    }
+    &._up-text {
+      font-size: 14px;
+      text-transform: uppercase;
+    }
   }
   &__row {
     margin-bottom: 15px;
+  }
+  &__row-mb20 {
+    margin-bottom: 20px;
+  }
+  &__row-mb30 {
+    margin-bottom: 30px;
+  }
+  &__row-mb70 {
+    margin-bottom: 70px;
   }
 }
 

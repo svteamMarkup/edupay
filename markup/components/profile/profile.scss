@@ -1,0 +1,25 @@
+.profile{
+    &__title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+.profile-form {
+    @extend .white-block;
+    padding: 30px;
+
+    &__block {
+
+      &._w40 {
+        width: 40%;
+      }
+      &._w60 {
+        width: 60%;
+      }
+      &._pad-rig {
+          padding-right: 60px;
+      }
+
+    }
+}
+
