@@ -3,10 +3,8 @@ mixin profile(data)
     .profile__title.title._big._blue Профиль
     form(action="" method="post" id="frm").profile-form._flex
       .profile-form__block._w60._pad-rig
-        .form__row._flex
+        .form__row-mb30._flex._border
           .form__label._blue._up-text Личные данные
-        .form__row-mb30
-          hr.blue-color
         .form__row-mb20._flex._center
           label.form__label Никнейм
           input(name="nickname" type="text" value="").form-field._adv-chanel
@@ -23,10 +21,8 @@ mixin profile(data)
           label.form__label Телефон
           input(name="phone" type="tel" value="").form-field._adv-chanel
       .profile-form__block._w40
-        .form__row._flex
+        .form__row-mb30._flex._border
          .form__label._blue._up-text Пароль
-        .form__row-mb30
-          hr.blue-color
         .form__row-mb20._flex._center
           label.form__label Новый пароль
           input(name="password" type="password" maxlength="30" value="").form-field
