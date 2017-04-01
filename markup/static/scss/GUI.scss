@@ -99,6 +99,9 @@
       font-size: 14px;
       text-transform: uppercase;
     }
+    &._error {
+      color: #ff4933;
+    }
   }
   &__row {
     margin-bottom: 15px;
@@ -143,6 +146,10 @@
   }
   &._w80 {
    width: 80%;
+  }
+
+  &._error {
+    border: 1px solid #ff4933;
   }
 }
 
@@ -235,6 +242,11 @@
       height: 35px;
     }
   }
+
+  &._error {
+    border: 2px solid #ff4933;
+  }
+
   &__label {
     text-transform: uppercase;
 
