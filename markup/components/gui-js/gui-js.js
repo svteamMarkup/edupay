@@ -9,8 +9,16 @@ $('select').change(function () {
 $('input').change(function () {
     if( $(this).val() ){
         if ($(this).attr('class').indexOf('_adv-chanel') >= 0)
-            $(this).attr('class', 'form-field _adv-chanel')
-        else $(this).attr('class', 'form-field');
-        $(this).siblings('label').attr('class', 'form__label');
+        {
+            if ($(this).attr('class').indexOf('_w80') >= 0)
+                $(this).attr('class', 'form-field _adv-chanel _w80');
+            else $(this).attr('class', 'form-field _adv-chanel');
+        }
+        else if ($(this).attr('class').indexOf('_w80') >= 0)  $(this).attr('class', 'form-field _w80');
+         else $(this).attr('class', 'form-field');
+
+        if ($(this).siblings('label').attr('class').indexOf('_required') >= 0)
+         $(this).siblings('label').attr('class', 'form__label _required');
+        else $(this).siblings('label').attr('class', 'form__label');
     }
 });
