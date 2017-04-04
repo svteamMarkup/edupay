@@ -1,10 +1,15 @@
 .footer {
   box-sizing: border-box;
   padding: 20px;
-
   background: #e2e2e2;
+  &._landing{
+    padding-left: 0;
+    padding-right: 0;
 
-  @extend .main;
+    .footer-menu{
+      @extend .layer;
+    }    
+  }
 }
 
 .footer-menu {

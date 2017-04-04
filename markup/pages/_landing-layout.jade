@@ -1,0 +1,20 @@
+doctype html
+html(class="no-js", lang="ru")
+
+    include ../components/head/head
+    include ../components/landing-header/landing-header
+    include ../components/footer/footer
+    include ../components/landing-banner/landing-banner
+        
+    head
+        +head(head.defaults)
+    body
+        block header
+            +landing-header
+        block content
+            h1 Hi
+        block footer
+            +footer({classes:"_landing"})
+
+    //- Main scripts. You can replace it, but I recommend you to leave it here
+    script(src='%=static=%js/main%=hash=%%=min=%.js')
