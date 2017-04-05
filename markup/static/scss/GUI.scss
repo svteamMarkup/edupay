@@ -482,6 +482,8 @@
   &._fixxed-width {
     display: inline-block;
     min-width: 424px;
+    box-sizing: border-box;
+    text-align: center;
   }
 }
 
