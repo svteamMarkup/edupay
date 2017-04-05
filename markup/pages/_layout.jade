@@ -1,40 +1,40 @@
 doctype html
 html(class="no-js", lang="ru")
 
-    include ../components/head/head
-    include ../components/header/header
-    include ../components/menu/menu
-    include ../components/balance-block/balance-block
-    include ../components/wallet-block/wallet-block
-    include ../components/money-chart/money-chart
-    include ../components/last-paid/last-paid
-    include ../components/news-list/news-list
-    include ../components/pagination/pagination
-    include ../components/filter-block/filter-block
-    include ../components/statistics-table/statistics-table
-    include ../components/adv-chanel-form/adv-chanel-form
-    include ../components/sites-block/sites-block
-    include ../components/login-form/login-form
-    include ../components/registration-form/registration-form
-    include ../components/news-redact/news-redact
-    include ../components/news-add/news-add
-    include ../components/advert-table/advert-table
-    include ../components/advert-control/advert-control
-    include ../components/footer/footer
-    include ../components/channel-add/channel-add
-    include ../components/profile/profile
-    include ../components/landing-banner/landing-banner
+    //- include ../components/head/head
+    //- include ../components/header/header
+    //- include ../components/menu/menu
+    //- include ../components/balance-block/balance-block
+    //- include ../components/wallet-block/wallet-block
+    //- include ../components/money-chart/money-chart
+    //- include ../components/last-paid/last-paid
+    //- include ../components/news-list/news-list
+    //- include ../components/pagination/pagination
+    //- include ../components/filter-block/filter-block
+    //- include ../components/statistics-table/statistics-table
+    //- include ../components/adv-chanel-form/adv-chanel-form
+    //- include ../components/sites-block/sites-block
+    //- include ../components/login-form/login-form
+    //- include ../components/registration-form/registration-form
+    //- include ../components/news-redact/news-redact
+    //- include ../components/news-add/news-add
+    //- include ../components/advert-table/advert-table
+    //- include ../components/advert-control/advert-control
+    //- include ../components/footer/footer
+    //- include ../components/channel-add/channel-add
+    //- include ../components/profile/profile
+    //- include ../components/landing-banner/landing-banner
         
-    head
-        +head(head.defaults)
-    body
-        main.main
-            block header
-                +header
-            block content
-                h1 Hi
-            block footer
-                +footer
+    //- head
+    //-     +head(head.defaults)
+    //- body
+    //-     main.main
+    //-         block header
+    //-             +header
+    //-         block content
+    //-             h1 Hi
+    //-         block footer
+    //-             +footer
 
     //- Main scripts. You can replace it, but I recommend you to leave it here
     script(src='%=static=%js/main%=hash=%%=min=%.js')

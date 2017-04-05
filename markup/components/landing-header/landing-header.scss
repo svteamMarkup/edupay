@@ -18,18 +18,9 @@
         font-family: 'RobotoCondensed-Regular', sans-serif;
         font-size: 14px;
         transition: transform 0.1s ease-out;
-        // &:last-child{
-        //     padding-right:0
-        // }
-        // &:first-child{
-        //     padding-left:0
-        // }
+
         &:hover{
             transform: scale(1.05)
-        }
-        &_special{
-            background-color: #71ac34;
-            color: #fff;            
         }
     }
 }
