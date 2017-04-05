@@ -1,0 +1,54 @@
+.landing-whom {
+    display: block;
+    &__box {
+        display: block;
+        font-size: 0;
+    }
+    &__item {
+        display: inline-block;
+        font-size: 14px;
+        width: 32.33%;
+        padding: 0 3%;
+        box-sizing: border-box;
+        margin: 0 1.5% 0 0;
+        min-height: 228px;
+        vertical-align: top;
+        text-align: center;
+        color: #fff;
+        background-size: contain;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &._learning-centers {
+            background: url("%=static=%content/landing-learning-centers.jpg") center center no-repeat;   
+        }
+        &._web-masters {
+            background: url("%=static=%content/landing-web-masters.jpg") center center no-repeat;   
+        }
+        &._traffic-professionals {
+            background: url("%=static=%content/landing-traffic-professionals.jpg") center center no-repeat;
+            .landing-whom__hd {
+                padding-bottom: .5em;
+            }   
+        }                        
+    }
+    &__hd {
+        display: block;
+        margin: auto;
+        padding: 2em 0 1em 0;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        color: #fff;
+    }
+    &__title {
+        display: block;
+        padding: 1em 0;
+        margin: auto;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 14px;
+        color: #fff;        
+    }
+}
