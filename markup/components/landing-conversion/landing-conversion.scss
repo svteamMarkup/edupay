@@ -1,0 +1,45 @@
+.landing-conversion {
+    display: block;
+    padding: 65px 0 65px 0;
+    margin: auto;
+    text-align: left;
+    padding-left:39%;
+    box-sizing: border-box;
+    background: url("%=static=%content/landing-conversion-bg.jpg") 4.5% bottom no-repeat;
+    box-sizing: border-box;
+    min-height: 574px;
+    @media screen and (max-width: 1278px) {
+      padding-right: 5%;
+    }
+
+    &__box {
+        display: block;
+        width: 67%;
+        padding: 0 0 40px;
+        margin: 0;        
+        list-style: none;
+        text-align: left;
+        @media screen and (max-width: 1278px) {
+          width: auto;
+        }
+    }
+    &__text {
+        display: block;
+        padding: .7em 0;
+        margin: 0;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 17px;
+        color: #333;
+        line-height: 1.5;       
+    }
+    &__title {
+        display: block;
+        padding: .6em 0 1.7em 0;
+        margin: 0;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 21px;
+        font-weight: bold;
+        color: #333;
+        line-height: 1.2;       
+    }    
+}
