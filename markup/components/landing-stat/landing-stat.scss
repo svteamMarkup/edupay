@@ -1,62 +1,192 @@
 .landing-stat {
+  display: block;
+
+  padding: 20px 0;
+
+  text-align: center;
+
+  background-color: #f4f4f4;
+  &__hd {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+
     display: block;
-    background-color: #f4f4f4;
-    padding: 20px 0;
+
+    margin: auto;
+    padding: 0;
+
     text-align: center;
 
-    &__hd {
-        display: block;
-        margin: auto;
-        text-align: center;
-        font-family: 'Merriweather', sans-serif;
-        font-weight: bold;
-        font-size: 36px;
-        color: #333;
-        padding: 0;        
-    }   
-    &__box {
-        display: block;
-        padding: 0;
-        margin: auto;
-        margin-top: 40px;
-        list-style: none;
-        box-sizing: border-box;
-        background: url("%=static=%content/landing-stat-bg.jpg") center bottom no-repeat;
-        box-sizing: border-box;
-        min-height: 562px;
-        position: relative;
-        z-index: 0;        
-    }
-    &__item {
-        display: inline-block;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 12px;
-        color: #333;
-        width: 18em;
-        // position: absolute;
-        // z-index: 0;       
-    }
-    &__mark {
-        display: inline-block;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 44px;
-        font-weight: bold;
-        color: #333;
-        line-height: 1.2;
-        padding: .05em .3em;
-        background-color: #d8d8d8;
+    color: #333;
+  }
+  &__box {
+    position: relative;
+    z-index: 0;
 
-        small {
-            font-weight: normal;
-            font-size: 17px;
-        }      
+    display: block;
+
+    box-sizing: border-box;
+    min-height: 562px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0;
+
+    list-style: none;
+
+    background: url('%=static=%content/landing-stat-bg.jpg') center bottom no-repeat;
+  }
+  &__item {
+    font-size: 12px;
+
+    position: absolute;
+    z-index: 0;
+
+    display: inline-block;
+
+    width: 18em;
+
+    color: #333;
+    &:before,
+    &:after {
+      position: absolute;
+
+      display: block;
+
+      content: '';
     }
-    &__text {
-        display: block;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 12px;
-        color: #333;
-        padding: 1em 0 0 0;
-        line-height: 1.4;        
+    &._left-first {
+      top: 170px;
+      left: 40px;
+      &:after {
+        z-index: 2;
+        left: 150px;
+
+        width: 300px;
+        height: 1px;
+
+        transform: rotate(25deg);
+
+        background: #d8d8d8;
+      }
+      &:before {
+        z-index: 3;
+        top: 157px;
+        left: 430px;
+
+        width: 25px;
+        height: 25px;
+
+        border-radius: 50%;
+        background: $green;
+      }
     }
+    &._left-second {
+      bottom: 80px;
+      left: 80px;
+      &:after {
+        z-index: 2;
+        top: 30px;
+        left: 210px;
+
+        width: 200px;
+        height: 1px;
+
+        transform: rotate(5deg);
+
+        background: #d8d8d8;
+      }
+      &:before {
+        z-index: 3;
+        top: 28px;
+        left: 400px;
+
+        width: 25px;
+        height: 25px;
+
+        border-radius: 50%;
+        background: $green;
+      }
+    }
+    &._right-first {
+      top: 170px;
+      right: 40px;
+      &:after {
+        z-index: 2;
+        top: 70px;
+        right: 180px;
+
+        width: 230px;
+        height: 1px;
+
+        transform: rotate(-25deg);
+
+        background: #d8d8d8;
+      }
+      &:before {
+        z-index: 3;
+        top: 115px;
+        right: 400px;
+
+        width: 25px;
+        height: 25px;
+
+        border-radius: 50%;
+        background: $green;
+      }
+    }
+    &._right-second {
+      right: 80px;
+      bottom: 80px;
+      &:after {
+        z-index: 2;
+        top: -20px;
+        right: 180px;
+
+        width: 340px;
+        height: 1px;
+
+        transform: rotate(15deg);
+
+        background: #d8d8d8;
+      }
+      &:before {
+        z-index: 3;
+        top: -75px;
+        right: 500px;
+
+        width: 25px;
+        height: 25px;
+
+        border-radius: 50%;
+        background: $green;
+      }
+    }
+  }
+  &__mark {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 1.2;
+
+    display: inline-block;
+
+    padding: .05em .3em;
+
+    color: #333;
+    background-color: #d8d8d8;
+    small {
+      font-size: 17px;
+      font-weight: normal;
+    }
+  }
+  &__text {
+    font-size: 12px;
+    line-height: 1.4;
+
+    display: block;
+
+    padding: 1em 0 0 0;
+
+    color: #333;
+  }
 }
