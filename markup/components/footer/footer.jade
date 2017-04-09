@@ -1,6 +1,7 @@
 mixin footer(data)
-  footer.footer
-    .footer-menu
-      a(href="#" title="").footer-menu__item Правила
-      a(href="#" title="").footer-menu__item FAQ
-      a(href="#" title="").footer-menu__item Контакты
+    - var classes = data && data.classes ? data.classes : "";
+    footer.footer(class=classes)
+        .footer-menu
+            a(href="#" title="").footer-menu__item Правила
+            a(href="#" title="").footer-menu__item FAQ
+            a(href="#" title="").footer-menu__item Контакты

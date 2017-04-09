@@ -1,0 +1,73 @@
+.landing-way {
+    display: block;
+    padding: 20px 0;
+    margin: auto;
+    text-align: center;
+    color: #000;
+    font-size: 0;
+    &__hd {
+        margin: auto;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        color: #333;
+        padding: 2em 0 1em 0;        
+    }
+    // &__blocks{
+    //     display: block;
+    //     margin: auto;
+    //     font-size: 0;
+    // }
+    &__block{
+        display: inline-block;
+        font-size: 14px;
+        vertical-align: top;
+        width: 33.3%;        
+        padding: 30px 7%;
+        box-sizing: border-box;
+        // &:last-child{
+        //     padding-right: 0;
+        // }
+
+        // &:first-child{
+        //     padding-left: 0;
+        // }        
+    }
+    &__pic {
+        display: block;
+        margin: auto;
+        &.create-account{
+            @include bg-svg($create-account);
+        }
+        &.start-earning{
+            @include bg-svg($start-earning);
+        }
+        &.make-profit{
+            @include bg-svg($make-profit);
+        }                        
+    }
+    &__sub-hd {
+        display: block;
+        padding: 1.8em 0 .4em 0;
+        margin: auto;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 18px;
+        color: #000;
+        text-transform: uppercase;
+    }
+    &__title {
+        display: block;
+        padding: 1em 0;
+        margin: auto;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 14px;
+        color: #666;
+    }
+    &__button, &__button.button {
+        display: inline-block;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 14px;
+        padding: .3em 1em;
+        margin-top: .3em;      
+    }
+}

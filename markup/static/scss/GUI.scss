@@ -474,6 +474,17 @@
       background: #8a8a8a;
     }
   }
+  &._landing {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    padding: .5em 1.2em;
+  }  
+  &._fixxed-width {
+    display: inline-block;
+    min-width: 424px;
+    box-sizing: border-box;
+    text-align: center;
+  }
 }
 
 .form-btn-group {

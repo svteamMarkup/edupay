@@ -1,0 +1,28 @@
+doctype html
+html(class="no-js", lang="ru")
+
+    include ../components/head/head
+    include ../components/landing-header/landing-header
+    include ../components/footer/footer
+    include ../components/landing-banner/landing-banner
+    include ../components/landing-way/landing-way
+    include ../components/landing-whom/landing-whom
+    include ../components/landing-offer/landing-offer
+    include ../components/landing-levels/landing-levels
+    include ../components/landing-model/landing-model
+    include ../components/landing-program/landing-program
+    include ../components/landing-conversion/landing-conversion
+    include ../components/landing-stat/landing-stat
+        
+    head
+        +head(head.defaults)
+    body
+        block header
+            +landing-header
+        block content
+            h1 Hi
+        block footer
+            +footer({classes:"_landing"})
+
+    //- Main scripts. You can replace it, but I recommend you to leave it here
+    script(src='%=static=%js/main%=hash=%%=min=%.js')
