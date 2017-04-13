@@ -27,7 +27,7 @@
                 <a
                 href="javascript: void(0);" title="" class="main-menu__item">Видео презентация</a><a href="javascript: void(0);" title="" class="main-menu__item">Модель продаж</a>
             </nav>
-            <nav class="main-menu"><a href="javascript: void(0);" title="" class="main-menu__item">Войти</a><a href="javascript: void(0);" title="" class="button _green main-menu__item">Регистрация</a>
+            <nav class="main-menu"><a href="#" title="" data-modal="#modal-enter" class="main-menu__item">Войти</a><a href="#" title="" data-modal="#modal-registration" class="button _green main-menu__item">Регистрация</a>
             </nav>
         </header>
         <section class="landing-banner">
@@ -185,6 +185,107 @@
             <div class="footer-menu"><a href="#" title="" class="footer-menu__item">Правила</a><a href="#" title="" class="footer-menu__item">FAQ</a><a href="#" title="" class="footer-menu__item">Контакты</a>
             </div>
         </footer>
+        <div id="modal-registration" class="modal modal-registration">
+            <div class="modal__close"></div>
+            <div class="modal__title">Регистрация</div>
+            <form class="modal-form">
+                <div class="modal-form__row">
+                    <div class="modal-form__column _left">
+                        <div class="modal-form__label">Тип аккаунта *</div>
+                    </div>
+                    <div class="modal-form__column _right _radio">
+                        <label>
+                            <input type="radio" value="" name="typeAcc"><span>Физическое лицо</span>
+                        </label>
+                        <label>
+                            <input type="radio" value="" name="typeAcc"><span>Юридическое лицо (в том числе ИП)</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-form__row">
+                    <div class="modal-form__column _left">
+                        <div class="modal-form__label">Ваша Фамилия *</div>
+                    </div>
+                    <div class="modal-form__column _right">
+                        <input type="text" value="" class="form-field">
+                    </div>
+                </div>
+                <div class="modal-form__row _bordered">
+                    <div class="modal-form__column _left">
+                        <div class="modal-form__label">Ваше Имя *</div>
+                    </div>
+                    <div class="modal-form__column _right">
+                        <input type="text" value="" class="form-field">
+                    </div>
+                </div>
+                <div class="modal-form__row">
+                    <div class="modal-form__column _left">
+                        <div class="modal-form__label">Ваш Email *</div>
+                    </div>
+                    <div class="modal-form__column _right">
+                        <input type="email" value="" class="form-field">
+                    </div>
+                </div>
+                <div class="modal-form__row _bordered">
+                    <div class="modal-form__column _left">
+                        <div class="modal-form__label">Повторите Ваш Email *</div>
+                    </div>
+                    <div class="modal-form__column _right">
+                        <input type="email" value="" class="form-field">
+                    </div>
+                </div>
+                <div class="modal-form__row">
+                    <div class="modal-form__column _left">
+                        <div class="modal-form__label">Желаемый Пароль *</div>
+                    </div>
+                    <div class="modal-form__column _right">
+                        <input type="password" value="" class="form-field">
+                    </div>
+                </div>
+                <div class="modal-form__row _bordered">
+                    <div class="modal-form__column _left">
+                        <div class="modal-form__label">Повторите Пароль *</div>
+                    </div>
+                    <div class="modal-form__column _right">
+                        <input type="password" value="" class="form-field">
+                    </div>
+                </div>
+                <div class="modal-form__row">
+                    <div class="modal-form__column _left">
+                        <div class="modal-form__label">Сколько будет *</div>
+                    </div>
+                    <div class="modal-form__column _right _captcha">
+                        <img src="static/images/content/temp-captcha.png" alt="">
+                        <input type="password" value="" class="form-field">
+                    </div>
+                </div>
+                <input type="submit" value="Отправить заявку" class="modal-form__submit">
+            </form>
+        </div>
+        <div id="modal-enter" class="modal modal-enter">
+            <div class="modal__close"></div>
+            <div class="modal__title">Вход</div>
+            <form class="modal-form">
+                <div class="modal-form__field _login">
+                    <input type="text" value="" class="form-field">
+                </div>
+                <div class="modal-form__field _password">
+                    <input type="password" value="" class="form-field">
+                </div>
+                <input type="submit" value="Войти" class="modal-form__submit _enter">
+            </form><a href="#" title="" data-modal="#modal-lost-password" class="modal__lost">Забыли пароль?</a>
+        </div>
+        <div id="modal-lost-password" class="modal modal-lost-password">
+            <div class="modal__close"></div>
+            <div class="modal__title">Восстановление пароля</div>
+            <form class="modal-form">
+                <div class="modal-form__field _lost">
+                    <input type="text" value="" placeholder="Введите вашу почту" class="form-field">
+                </div>
+            </form>
+            <input type="submit" value="Восстановить" class="modal-form__submit _enter">
+        </div>
+        <div class="mask"></div>
     </body>
     <script src="static/js/main.min.js"></script>
 

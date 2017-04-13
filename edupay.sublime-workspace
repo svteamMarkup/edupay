@@ -4,516 +4,180 @@
 		"selected_items":
 		[
 			[
-				"_gree",
-				"_green\t(GUI.scss)"
-			],
-			[
 				"marign",
-				"margin-top\t(GUI.scss)"
-			],
-			[
-				"text",
-				"text-decoration\t(GUI.scss)"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"filter",
-				"filterItems"
-			],
-			[
-				"form",
-				"form-search-btn"
-			],
-			[
-				"news",
-				"news-add"
+				"margin-bottom"
 			],
 			[
 				"pad",
+				"padding"
+			],
+			[
+				"padd",
 				"padding-left"
+			],
+			[
+				"text",
+				"text-decoration"
 			],
 			[
 				"margin",
 				"margin-top"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
-				"tex",
-				"text-decoration"
+				"paddin",
+				"padding-right"
 			],
 			[
 				"font",
 				"font-size"
 			],
 			[
-				"in",
-				"input"
+				"backgr",
+				"background-size"
 			],
 			[
-				"form__",
-				"form__row"
+				"before",
+				"page-break-before"
 			],
 			[
-				"bord",
-				"border-box"
+				"fon",
+				"font-size"
 			],
 			[
-				"borde",
-				"border"
+				"data",
+				"dataText"
 			],
 			[
-				"fo",
-				"form-checkbox"
+				"js",
+				"jsSlide"
 			],
 			[
-				"for",
-				"form"
-			],
-			[
-				"sta",
-				"statistics-table"
+				"tet",
+				"text-decoration"
 			],
 			[
 				"border",
-				"border-left"
+				"border-bottom-color"
 			],
 			[
-				"box-s",
-				"box-sizing"
+				"padding-",
+				"padding-left"
 			],
 			[
-				"flex",
-				"flex-start"
+				"max",
+				"max-width"
 			],
 			[
-				"te",
-				"text-transform"
+				"max-",
+				"max-width"
 			],
 			[
-				"wid",
-				"width"
+				"border-bot",
+				"border-bottom-color"
 			],
 			[
-				"back",
-				"background"
-			],
-			[
-				"tetx",
-				"text-decoration"
+				"margn",
+				"margin-right"
 			],
 			[
 				"inl",
 				"inline-block"
 			],
 			[
-				"max",
-				"max-height"
+				"tetx",
+				"text-transform"
 			],
 			[
-				"bal",
-				"balance-block"
-			],
-			[
-				"bala",
-				"balance-block__row"
-			],
-			[
-				"head",
-				"header-user-info\t(header.scss)"
-			],
-			[
-				"hea",
-				"header-user"
-			],
-			[
-				"backgroun",
-				"background-size"
-			],
-			[
-				"bac",
-				"background\tstyl"
-			],
-			[
-				"para",
-				"parallax-window"
-			],
-			[
-				"paral",
-				"parallaxContainer"
-			],
-			[
-				"window",
-				"windowTop"
-			],
-			[
-				"parallax",
-				"parallaxWindow"
-			],
-			[
-				"wind",
-				"windowTop"
-			],
-			[
-				"js-",
-				"js-parallax-window\t(deal.php)"
-			],
-			[
-				"comm",
-				"comment"
-			],
-			[
-				"wi",
-				"width\tstyl"
-			],
-			[
-				"texta",
-				"textarea\tTag"
-			],
-			[
-				"wa",
-				"wa-form__field"
-			],
-			[
-				"off",
-				"offsetTopParallaxWindow"
-			],
-			[
-				"win",
-				"windowTop"
-			],
-			[
-				"parall",
-				"parallaxWindow"
-			],
-			[
-				"ima",
-				"image-src"
-			],
-			[
-				"paddin",
-				"padding-bottom\tstyl"
-			],
-			[
-				"padding",
-				"padding-left\tstyl"
+				"rgba",
+				"rgba()"
 			],
 			[
 				"scr",
-				"script\t<script>"
+				"scrollTop"
 			],
 			[
-				"data-va",
-				"data-validation-length"
+				"doc",
+				"docHeight"
 			],
 			[
-				"js-form",
-				"js-form-validation\t(index.php)"
+				"sco",
+				"scrollTop"
 			],
 			[
-				"fomr",
-				"formValidationQuestion"
+				"face",
+				"facebook-subscribe"
 			],
 			[
-				"fom",
-				"formValidationQuestion"
-			],
-			[
-				"consol",
-				"console.log"
-			],
-			[
-				"js-form-",
-				"js-form-validation-phone\t(index.php)"
-			],
-			[
-				"js-fo",
-				"js-form-validation-name\t(index.php)"
-			],
-			[
-				"appWidgetModulesForm",
-				"appWidgetModulesFormValidation\t(form-validation.js)"
-			],
-			[
-				"place",
-				"placemarkID"
-			],
-			[
-				"myPlacemarkPa",
-				"myPlacemarkParking1"
-			],
-			[
-				"my",
-				"myPlacemarkParking2"
-			],
-			[
-				"block",
-				"blockquote\t<blockquote>"
-			],
-			[
-				"js-slide",
-				"js-slider-career-bx\t(index.php)"
-			],
-			[
-				"__",
-				"__pro"
-			],
-			[
-				"hr-",
-				"hr-specialist-block-vcard"
-			],
-			[
-				"hr-spe",
-				"hr-specialist-block"
-			],
-			[
-				"hr",
-				"hr-specialist-block"
-			],
-			[
-				"hr-s",
-				"hr-specialist-block"
-			],
-			[
-				"parallax-",
-				"parallax-container\t(deal.php)"
-			],
-			[
-				"prin",
-				"printElement"
-			],
-			[
-				"js-prin",
-				"js-prin-drive"
-			],
-			[
-				"mo",
-				"module-h1"
-			],
-			[
-				"wa-bl",
-				"wa-blog-similar"
-			],
-			[
-				"sub",
-				"subscribeButton"
-			],
-			[
-				"con",
-				"console"
-			],
-			[
-				"margi",
-				"margin-right\tstyl"
-			],
-			[
-				"margn",
-				"margin-left\tstyl"
-			],
-			[
-				"blo",
-				"blockquote\tTag"
-			],
-			[
-				"wa-blog-en",
-				"wa-blog-entry"
-			],
-			[
-				"blog",
-				"blog-entry"
-			],
-			[
-				"wa-",
-				"wa-blog"
-			],
-			[
-				"max-",
-				"max-width\tstyl"
-			],
-			[
-				"btn-",
-				"btn--with-border"
-			],
-			[
-				"inpu",
-				"inputs\tinput - submit"
-			],
-			[
-				"inp",
-				"inpute\tinput - email"
-			],
-			[
-				"background",
-				"background-color\tstyl"
-			],
-			[
-				"wa-blog-bet",
-				"wa-blog-better-item"
-			],
-			[
-				"cl",
-				"clearfix\t(index.php)"
-			],
-			[
-				"regi",
-				"registration-form"
-			],
-			[
-				"reg",
-				"registration-form"
-			],
-			[
-				"marg",
-				"margin-top"
-			],
-			[
-				"pro",
-				"profile-settings-form__select"
-			],
-			[
-				"op",
-				"option"
-			],
-			[
-				"tabl",
-				"table"
-			],
-			[
-				"b",
-				"block"
-			],
-			[
-				"согл",
-				"соглашение"
-			],
-			[
-				"registration-block-form__",
-				"registration-block-form__links"
-			],
-			[
-				"min-",
-				"min-width"
-			],
-			[
-				"space",
-				"space-between"
-			],
-			[
-				"registration-blo",
-				"registration-block-form"
-			],
-			[
-				"peop",
-				"peoples-list"
-			],
-			[
-				"peoples-list",
-				"peoples-list-item"
-			],
-			[
-				"poe",
-				"peoples-list-item__image"
-			],
-			[
-				"peo",
-				"peoples-list-item__image"
-			],
-			[
-				"pe",
-				"peoples"
-			],
-			[
-				"peopl",
-				"peoples-list-item"
-			],
-			[
-				"adv",
-				"advantage"
-			],
-			[
-				"ad",
-				"advantages"
-			],
-			[
-				"ma",
-				"margin-top"
-			],
-			[
-				"backgrou",
-				"background"
-			],
-			[
-				"has",
-				"hasClass"
-			],
-			[
-				"product",
-				"product-list\t(index.php)"
-			],
-			[
-				"slider",
-				"sliderSecond"
-			],
-			[
-				"tran",
-				"transparent"
-			],
-			[
-				"background-o",
-				"background-color"
-			],
-			[
-				"curr",
-				"currentIndex"
-			],
-			[
-				"func",
-				"function"
-			],
-			[
-				"visi",
-				"visibility\tstyl"
-			],
-			[
-				"new",
-				"newIndex"
+				"fac",
+				"facebook"
 			],
 			[
 				"min",
+				"min-width"
+			],
+			[
+				"sing",
+				"single-share-item"
+			],
+			[
+				"sin",
+				"single-share"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"fa",
+				"facebook-subscribe"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"border-",
+				"border-box"
+			],
+			[
+				"modal",
+				"modal-sale"
+			],
+			[
+				"moda",
+				"modal-sale-block"
+			],
+			[
+				"banner",
+				"banner-place"
+			],
+			[
+				"min-",
 				"min-height"
 			],
 			[
-				"c-pro",
-				"c-promo-slider-item"
+				"flex-",
+				"_flex-end"
 			],
 			[
-				"abs",
-				"absolute"
+				"car",
+				"cart-list-cost"
 			],
 			[
-				"product-list-colum",
-				"product-list-columns-two"
+				"cata",
+				"cart-list-table-info"
 			],
 			[
-				"product-list__co",
-				"product-list__col-one\t(index.php)"
+				"back",
+				"background-color"
 			],
 			[
-				"produ",
-				"product-list\t(index.php)"
+				"in",
+				"inline"
 			],
 			[
-				"radio-block",
-				"radio-block__ui\t(index.php)"
-			],
-			[
-				"radio",
-				"radio-block\t(index.php)"
+				"pro",
+				"product-card-info__"
 			]
 		]
 	},
@@ -536,48 +200,22 @@
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: instal",
+				"ins",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: insta",
+				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"Package Control: ins",
-				"Package Control: Install Package"
-			],
-			[
-				"task",
-				"Tasks: New document"
-			],
-			[
-				"new",
-				"Tasks: New"
-			],
-			[
-				":",
-				"View: Toggle Menu"
-			],
-			[
-				"",
-				"Set Syntax: HTML"
 			]
 		],
 		"width": 467.0
 	},
 	"console":
 	{
-		"height": 526.0,
+		"height": 126.0,
 		"history":
 		[
-			"cd e:/git/svadbavo-2015/",
-			"update",
-			"export LC_NUMERIC=C",
-			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
-			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
-			"view.settings().get('syntax')",
-			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -591,457 +229,178 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/svteam/edupay",
-		"/Users/extiser/git/svteam/edupay/markup",
-		"/Users/extiser/git/svteam/edupay/markup/components",
-		"/Users/extiser/git/svteam/edupay/markup/components/advert-control",
-		"/Users/extiser/git/svteam/edupay/markup/components/statistics-table",
-		"/Users/extiser/git/svteam/edupay/markup/pages",
-		"/Users/extiser/git/svteam/edupay/markup/static",
-		"/Users/extiser/git/svteam/edupay/markup/static/scss"
+		"/Users/extiser/git/SVTEAM/edupay/markup"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/svteam/edupay/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/svteam/edupay/markup/pages/advert.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/advert-control/advert-control.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/advert-control/advert-control.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/advert-table/advert-table.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/advert-table/advert-table.jade",
-		"/Users/extiser/git/svteam/edupay/markup/pages/_layout.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/filter-block/filter-block.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/statistics-table/statistics-table.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/advert-form/advert-form.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/advert-form/advert-form.jade",
-		"/Users/extiser/git/svteam/edupay/markup/pages/adv-chanel.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/news-add/news-add.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/news-add/news-add.jade",
-		"/Users/extiser/git/svteam/edupay/markup/pages/news-add.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/menu/menu.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/news-redact/news-redact.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/news-list/news-list.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/news-redact/news-redact.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/news-list/news-list.jade",
-		"/Users/extiser/git/svteam/edupay/markup/pages/news-redact.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/header/header.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/login-form/login-form.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/registration-form/registration-form.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/registration-form/registration-form.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/login-form/login-form.jade",
-		"/Users/extiser/git/svteam/edupay/markup/pages/registration.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/sites-block/sites-block.scss",
-		"/Users/extiser/git/svteam/edupay/markup/pages/sites.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/sites-block/sites-block.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/adv-chanel-form/adv-chanel-form.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/adv-chanel-form/adv-chanel-form.jade",
-		"/Users/extiser/git/svteam/edupay/markup/pages/statistics.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/statistics-table/statistics-table.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/filter-block/filter-block.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/pagination/pagination.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/pagination/pagination.jade",
-		"/Users/extiser/git/svteam/edupay/markup/pages/news.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/footer/footer.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/footer/footer.scss",
-		"/Users/extiser/git/svteam/edupay/markup/pages/index.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/menu/menu.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/last-paid/last-paid.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/last-paid/last-paid.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/balance-block/balance-block.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/wallet-block/wallet-block.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/money-chart/money-chart.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/money-chart/money-chart.scss",
-		"/Users/extiser/git/svteam/edupay/markup/static/scss/common.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/wallet-block/wallet-block.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/wallet-block/wallet-block.js",
-		"/Users/extiser/git/svteam/edupay/markup/components/balance-block/balance-block.jade",
-		"/Users/extiser/git/svteam/edupay/markup/components/header/header.scss",
-		"/Users/extiser/git/svteam/edupay/markup/static/scss/vars.scss",
-		"/Users/extiser/git/svteam/edupay/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/svteam/edupay/markup/components/head/data/data.js",
-		"/Users/extiser/git/svteam/edupay/markup/components/default_component_scheme.json",
-		"/Users/extiser/git/1studio/ulabs.pro/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/1studio/ulabs.pro/markup/pages/index.jade",
-		"/Users/extiser/git/1studio/ulabs.pro/markup/static/scss/common.scss",
-		"/Users/extiser/git/1studio/ulabs.pro/markup/components/head/data/data.js",
-		"/Users/extiser/git/1studio/ulabs.pro/markup/components/fractal/fractal.js",
-		"/Users/extiser/git/1studio/ulabs.pro/markup/static/js/main.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/home/service-list-dynamic-filter.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/home/service-list-dynamic-filter.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/parallax.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/home/slider-service.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/module/form-validation.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/contacts/index.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/career/vacancy-detail.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/module/parallax.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/leader-appeal.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/section-nav.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/services/wa-service-preview.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/ui.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-list.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/include/ru/blocks/leader-appeal/abramov.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/include/ru/blocks/leader-appeal/tyagunov.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/include/ru/blocks/leader-appeal/tyagunova.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/include/ru/home/deal.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/wa-ratings.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/about-company/partners.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/services/service-page.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/infocentr/index.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/wa-form.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/services/service-detail.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/module/sticky-scroll.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/career/hr-specialist.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/career/success-story.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/career/vacancies.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/temp.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-entry.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/index.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/home/deal.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/infocenter/index.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/blog/blog-category.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/infocenter/news.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/breadcrumb.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/contacts/wa-contacts.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/career/index.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/module/map.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/templates/main/header.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/tasks/scripts.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/bower.json",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/bower_components/jquery-form-validator/form-validator/jquery.form-validator.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/bower_components/jquery-form-validator/form-validator/toggleDisabled.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/home/news-list-sects.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/main.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/slider/career.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/slider/clients.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/about-company/for-media.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/about-company/for-media.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/services/service.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/career/working-conditions.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/career/work-organization.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/career/vacancies.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/career/success-stories.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/about-company/index.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/about-company/history.php",
-		"/Users/extiser/git/svadbavo-2015/svadbavo-2015.sublime-project",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/career/career-main.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/klienty/index.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/about-company/wa-leaders.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/module/print.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/about-company/wa-values-slide-toggle.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/infocenter/news-detail.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/blog/blog-entry.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/blog/index.php"
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/pages/layout.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/header-control/header-control.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/block-gui/block-gui.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/block-gui/row-gui.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/footer/footer.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/seo-text/seo-text.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/seo-text/seo-text.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/free-links/free-links.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/pages/index.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/expert-list/expert-list.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/expert-list/expert-list.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/block-gui/expert-block.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/block-gui/block-gui.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/block-gui/blocks-grid.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/social-buttons/social-buttons.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/social-buttons/social-buttons.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/footer/footer.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/header/header.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/tars-config.js",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/seo-text/seo-text.js",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/free-links/free-links.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/header/header.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/top-menu/top-menu.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/top-menu/top-menu.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/header-control/header-control.pug",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/static/scss/vars.scss",
+		"/Volumes/M P/Work/_Шрифты/font-awesome-4.7.0/scss/font-awesome.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/static/scss/common.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/static/scss/vars.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/1studio/netexar/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/default_component_scheme.json",
+		"/Users/extiser/git/verst_sovets-pro/tars-config.js",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-content/single-content.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-content/single-content.scss",
+		"/Users/extiser/git/verst_sovets-pro/package.json",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-fixed-tiser/single-fixed-tiser.js",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/experts-main/experts-main.js",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/scrolled-adv/scrolled-adv.js",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/scrolled-adv/scrolled-adv.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/scrolled-adv/scrolled-adv.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/top-ask/top-ask.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/top-search/top-search.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-scrolled/single-scrolled.js",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-scrolled/single-scrolled.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-scrolled/single-scrolled.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/facebook-subscribe/facebook-subscribe.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/facebook-subscribe/facebook-subscribe.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-share/single-share.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-share/share.js",
+		"/Users/extiser/git/verst_sovets-pro/markup/pages/_layout.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-share/single-share.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/pages/single.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-top/single-top.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/pages/index.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/modal-baner/modal-baner.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/modal-baner/modal-baner.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/article-user/article-user.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/article-user/article-user.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/menu/menu.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/menu/menu.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/verst_sovets-pro/node_modules/foundation-sites/scss/foundation.scss",
+		"/Users/extiser/git/verst_sovets-pro/node_modules/foundation-sites/scss/typography/_typography.scss",
+		"/Users/extiser/git/SVTEAM/sovets/protected/views/frontend/templates/article.php",
+		"/Users/extiser/git/SVTEAM/sovets/protected/views/frontend/partials/body.php",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/breadcrumbs/breadcrumbs.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/top-bar/top-bar.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/top-search/top-search.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/top-bar/top-bar.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/categories-main/categories-main.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/categories-main/categories-main.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-top/single-top.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/top-login/top-login.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/top-menu/top-menu.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/zodiac/zodiac.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/advertise-content/advertise-content.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/article-block-small/article-block-small.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/expert-add-article/expert-add-article.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/expert-articles/expert-articles.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/experts-list/experts-list.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/experts-profile/experts-profile.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/feedback-page/feedback-page.scss",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/single-ask/single-ask.scss",
+		"/Users/extiser/git/quick-made/markup/pages/cart.jade",
+		"/Users/extiser/git/quick-made/markup/components/cart-list/cart-list.jade",
+		"/Users/extiser/git/quick-made/markup/components/cart-list/cart-list.scss",
+		"/Users/extiser/git/quick-made/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/quick-made/markup/static/scss/libraries/custom-icons.scss",
+		"/Users/extiser/git/quick-made/markup/pages/layout.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/pages/user.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/user-page/user-page.jade",
+		"/Users/extiser/git/verst_sovets-pro/markup/modules/user-page/user-page.scss",
+		"/Users/extiser/git/quick-made/markup/components/footer/footer.jade",
+		"/Users/extiser/git/quick-made/markup/components/footer/footer.scss",
+		"/Users/extiser/git/quick-made/markup/components/seo-text/seo-text.jade",
+		"/Users/extiser/git/quick-made/markup/components/seo-text/seo-text.scss",
+		"/Users/extiser/git/quick-made/markup/components/catalog-inside/catalog-inside.jade",
+		"/Users/extiser/git/quick-made/markup/components/catalog-inside/catalog-inside.scss",
+		"/Users/extiser/git/quick-made/markup/pages/product.jade",
+		"/Users/extiser/git/quick-made/markup/components/similar-products/similar-products.jade",
+		"/Users/extiser/git/quick-made/markup/components/similar-products/similar-products.scss",
+		"/Users/extiser/git/quick-made/markup/components/extended-block/extended-block.scss",
+		"/Users/extiser/git/quick-made/markup/components/product-card/product-card.scss",
+		"/Users/extiser/git/quick-made/markup/components/product-card/product-card.jade",
+		"/Users/extiser/git/quick-made/markup/components/other-volumes/other-volumes.jade",
+		"/Users/extiser/git/quick-made/markup/components/other-volumes/other-volumes.scss",
+		"/Users/extiser/git/quick-made/markup/components/small-block/small-block.jade",
+		"/Users/extiser/git/quick-made/markup/components/small-block/small-block.scss",
+		"/Users/extiser/git/quick-made/markup/pages/index.jade",
+		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
+		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
 		"height": 158.0,
 		"where_history":
 		[
-			"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials",
-			"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus",
-			"/Users/extiser/MAMP/wiseadvice-new.ru/local",
-			"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials",
-			"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus",
-			"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials",
-			"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup",
-			"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials",
-			"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/js",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/stylus",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/stylus/",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/js/",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/markup/",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s",
-			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus",
-			""
+			"/Users/extiser/git/verst_sovets-pro/markup/modules"
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
-			"button",
-			"form-group",
-			"button",
-			"form",
-			"title",
-			".form-group",
-			".slider-service-main-item",
-			"__container",
-			"leader",
-			"section-nav",
-			".section-nav",
-			"text-hig",
-			"button",
-			".wa-form input[type=\"submit\"]",
-			"btn",
-			"textarea",
-			"retina",
-			"wa-phone-order-form",
-			"wa-form",
-			"modal",
-			".wa-service-preview",
-			"--wide",
-			"__text-highlight",
-			"deal-home",
-			"wa-blog-list-item-tags clearfix__item",
-			"button",
-			"center",
-			"btn",
-			"toggleDisabled",
-			"modules",
-			"Map",
-			"form",
-			"leader-appeal",
-			"&nbsp;",
-			"js-parallax-window",
-			"<div class=\"js-parallax-window parallax-window\" data-parallax=\"scroll\"",
-			"js-parallax-window",
-			"goTo",
-			"slideNext",
-			"js-nav-next",
-			"slider",
-			"sliders",
-			"retinaSprite",
-			"wa-about",
-			"&nbsp;",
-			"leader-appeal",
-			"parallax",
-			"button",
-			"&nbsp;",
-			"label",
-			".label",
-			"wa-blog-list-item-tags",
-			"label",
-			"wa-news__add",
-			"search",
-			"blockquote",
-			"wa-blog-item",
-			"underlined-link",
-			"form",
-			"input",
-			"wa-blog-rubric-item",
-			"wa-blog-audience-item",
-			"label",
-			".profile-settings-form__field",
-			"radio-block",
-			"solutions-nav",
-			"experience-section",
-			"c-transition-steps",
-			"table-block",
-			"_padding-top-section-medium",
-			"c-detail-consist",
-			"plate-content-nav_transition-nav-3",
-			"Эффекты от внедрения",
-			"3 технологии",
-			"logo",
-			"vertical-inner-menu__main-item",
-			"sticky",
-			"thead",
-			"<table",
-			"table",
-			"expert",
-			"vertical-inner-menu__link",
-			"vertical-inner-menu",
-			"vertical-inner-menu__link",
-			".vertical-inner-menu__link",
-			"equal",
-			"equi",
-			".promo-component__slider",
-			".is-adaptive .promo-component__slider",
-			"promo-slider",
-			"promo-component",
-			"<li",
-			"li>",
-			"/ul",
-			"<ul",
-			"slick",
-			"slick-list",
-			"slick",
-			"plate-slide__left-col",
-			"plate-slide",
-			"slick",
-			"promo-slide2__content",
-			"promo-slide2",
-			"promo-slide2__holder",
-			".bx-pager",
-			".promo-slider .bx-wrapper .bx-pager",
-			"display: none",
-			"promo-component",
-			"promo-slide2",
-			"promo-slider",
-			"stickyTable",
-			"stycki",
-			"toolt",
-			"b-compare",
-			"tool",
-			"Направления",
-			"Направление ",
-			"stickyTableHeaders",
-			"_demonstration",
-			"message-block",
-			"radio-block-over",
-			"c-product-card__diff-container",
-			"c-product-card__diff-link",
-			"js-product-card-diff-link",
-			"tab",
-			"taи",
-			"tar",
-			"radio-block"
+			"._central",
+			"._small",
+			";\n",
+			" <li class=\"menu__item\">",
+			"</a> </li>",
+			".banner-place",
+			"mouth",
+			"ul",
+			"15",
+			"img",
+			"@media screen and (max-width: 420px) {",
+			"@include breakpoint(small) {",
+			"@include breakpoint(medium) {",
+			"img",
+			"slick"
 		],
-		"highlight": false,
+		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
-			".form-select",
-			"wa-blog-list-item-tags__item clearfix",
-			" ",
-			" <div class=\"js-parallax-window parallax-window\" ",
-			" ",
-			"wa-blog-list-item-tags clearfix",
-			"wa-blog-list-item",
-			"wa-blog-rubric__item",
-			"wa-blog-audience__item",
-			"label.profile-settings-form__label",
-			".profile-settings-form-row",
-			"<div",
-			"div>",
-			"/div",
-			"<div",
-			"http://wiseadvice.ru:8888",
-			"wiseadvice.ru:8888/local/",
-			" ",
-			"(max-width: 2560px)",
-			"(max-width: 1440px)",
-			"(max-width: 2560px)",
 			"",
-			".slide-control",
-			"#",
-			".form__label.form__label--inline",
-			".experts-menu-list__wrap",
-			".expert-favourite",
-			".form__top-label",
-			"label.form__label",
-			".meta-window-social__item",
-			".meta-window-form",
-			".meta-window-social",
-			".experts-rate__row",
-			"other-icons",
-			"Cambria-Bold",
-			"Cambria-Italic",
-			"",
-			".icon.zodiac__item",
-			"",
-			"url('../fonts/",
-			"i.main-categories-list-item__icon",
-			"",
-			"\n",
-			"",
-			"cost: ",
-			"        cityFinish: ",
-			"        cityFinish:'Самарканд',",
-			"cityStart: 'Ташкент',\ncityFinish:",
-			"cityFinish:",
-			"cost: 5",
-			"cost: 6",
-			"cost: 3",
-			"cost: 1",
-			"cost: 2",
-			"weight: '24 000',",
-			"%=staticPrefixForCss=%general/",
-			"http://shtukaturkapro.ru/TEMP/",
-			"DINPro-Bold",
-			"Roboto-Regular",
-			".advertising-form__label",
-			".advertising-form__element",
-			"\"",
-			"",
-			"p ",
-			"p",
+			".full-place",
 			"@media screen and (max-width: 800px) {",
-			"@media screen and (max-width: 768px) {",
-			"Lato-Thin",
-			"Lato-Regular",
-			"Lato-Medium",
-			"Lato-Light",
-			"Lato-Heavy",
-			"Lato-Hairline",
-			"Lato-Black",
-			"Lato-Bold",
-			"}",
-			"",
-			"#SkypeButton_Call_redvoronik_1",
-			"__item",
-			"../fonts/unisans",
-			".similar-article",
-			"li.sidebar-nav__item\n\t\t\t\ta(href=\"#\" ",
-			".col-xs-12.col-md-12.col-lg-11",
-			".hidden-xs.col-lg-1",
-			".hidden-xs.hidden-md.col-lg-1",
-			".col-xs-12.col-md-12.col-lg-11.col-lg-offset-1",
-			".col-xs-12.col-md-12",
-			".col-lg",
-			"",
-			".visible-xs-block.visible-md-block",
-			".title.visible-xs-block",
-			"#70cfea",
-			"angular",
-			"SegoeUILight",
-			"../images/",
-			"&--individualCreate",
-			"&--momentGlory",
-			"&--threeColors",
-			"&--theOne",
-			"&--bigDisplay",
-			"../static/images/",
-			"contentRowL",
-			"contentRowF",
-			"content-row-l",
-			"content-row-f",
-			"'",
-			"jQuery",
-			"slider",
-			"\"",
-			"uslugi",
-			"/images",
-			"CalendarByWeek",
-			"www.acccentre.ru",
-			"acccentre.ru",
-			"firm-card-tabs-video-album",
-			"acccentre.iqdemo.ru",
-			"javascript:void(0)",
-			".slide__content__title",
-			"",
-			"/images/",
-			"water",
-			"cr_stone_kg",
-			"cr_stone_m",
-			"sand_m",
-			"sand_kg",
-			"sand_m",
-			"cement",
-			"bags"
+			"@include breakpoint(medium) {",
+			"@include breakpoint(large) {"
 		],
 		"reverse": false,
-		"show_context": false,
-		"use_buffer2": false,
+		"show_context": true,
+		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": false
+		"wrap": true
 	},
 	"groups":
 	[
@@ -1053,11 +412,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 63.0
+		"height": 70.0
 	},
 	"layout":
 	{
@@ -1082,19 +441,15 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 28.0
-	},
 	"output.find_results":
 	{
-		"height": 291.0
+		"height": 0.0
 	},
 	"pinned_build_system": "",
 	"project": "edupay.sublime-project",
 	"replace":
 	{
-		"height": 114.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1128,14 +483,13 @@
 	"settings":
 	{
 	},
-	"show_minimap": false,
+	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 270.0,
+	"side_bar_width": 288.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
-		"max_columns": 1
 	}
 }
