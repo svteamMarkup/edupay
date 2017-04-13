@@ -13,6 +13,7 @@ html(class="no-js", lang="ru")
     include ../components/landing-program/landing-program
     include ../components/landing-conversion/landing-conversion
     include ../components/landing-stat/landing-stat
+    include ../components/modal/modal
         
     head
         +head(head.defaults)
@@ -23,6 +24,10 @@ html(class="no-js", lang="ru")
             h1 Hi
         block footer
             +footer({classes:"_landing"})
+        +modal-registration
+        +modal-enter
+        +modal-lost
+        .mask
 
     //- Main scripts. You can replace it, but I recommend you to leave it here
     script(src='%=static=%js/main%=hash=%%=min=%.js')
