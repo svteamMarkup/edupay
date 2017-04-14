@@ -9,4 +9,5 @@ $('[data-modal]').click(function (e) {
 $('.mask, .modal__close').click(function () {
   $(this).removeClass('_active');
   $('.modal').removeClass('_active');
+  $('.mask').removeClass('_active');
 });
