@@ -7,7 +7,6 @@
         <title>edupay</title>
         <meta content="" name="description">
         <meta content="" name="keywords">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="telephone=no" name="format-detection">
         <meta name="HandheldFriendly" content="true">
 
@@ -93,6 +92,30 @@
                 <div class="footer-menu"><a href="#" title="" class="footer-menu__item">Правила</a><a href="#" title="" class="footer-menu__item">FAQ</a><a href="#" title="" class="footer-menu__item">Контакты</a>
                 </div>
             </footer>
+            <div id="modal-ticket" class="modal modal-ticket">
+                <div class="modal__close"></div>
+                <div class="modal__title">Новое сообщение</div>
+                <form class="modal-form">
+                    <div class="modal-form__row">
+                        <div class="modal-form__column _left">
+                            <div class="modal-form__label">Тема</div>
+                        </div>
+                        <div class="modal-form__column _right">
+                            <input type="text" value="" class="form-field">
+                        </div>
+                    </div>
+                    <div class="modal-form__row">
+                        <div class="modal-form__column _left">
+                            <div class="modal-form__label">Сообщение</div>
+                        </div>
+                        <div class="modal-form__column _right">
+                            <textarea class="form-field _textarea"></textarea>
+                        </div>
+                    </div>
+                </form>
+                <input type="submit" value="Отправить" class="modal-form__submit _enter">
+            </div>
+            <div class="mask"></div>
         </main>
     </body>
     <script src="static/js/main.min.js"></script>

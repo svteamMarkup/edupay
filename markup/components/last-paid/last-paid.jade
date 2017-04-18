@@ -1,6 +1,12 @@
 mixin last-paid(data)
   .last-paid
-    .title.last-paid__title Последние Выплаты
+    .last-paid__title
+      .title Последние Выплаты
+      .form-select._label._balance
+        .form-select__label Показать последние: 
+        select.form-select__field
+          option 10
+          option 20
 
     table.table.last-paid-table._zebra
       tbody

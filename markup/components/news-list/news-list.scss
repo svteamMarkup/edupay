@@ -14,6 +14,9 @@
   &._unreaded {
     background: #fefade;
   }
+  &._inside {
+    margin-top: 30px;
+  }
   &__top {
     @extend ._flex;
   }

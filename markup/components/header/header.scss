@@ -32,6 +32,9 @@
     justify-content: flex-start;
   }
   &__icon {
+    font-size: 21px;
+    line-height: 46px;
+
     width: 46px;
     height: 46px;
     margin-right: 10px;
@@ -41,41 +44,55 @@
     color: $blue;
     border: 1px solid #dfdfdf;
     border-radius: 50%;
-
-    font-size: 21px;
-    line-height: 46px;
   }
   &__label {
+    font-size: 12px;
+    line-height: 1;
+
     text-transform: uppercase;
 
     color: #666;
-
-    font-size: 12px;
-    line-height: 1;
   }
   &__text {
-    color: #333;
-
     font-size: 18px;
-    span {
-      color: #666;
 
+    color: #333;
+    span {
       font-size: 12px;
+
+      color: #666;
+    }
+    a {
+      text-decoration: none;
+
+      color: #333;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
   &__avatar {
     margin-right: 10px;
   }
   &__name {
-    color: $green;
-
     font-weight: 700;
+
+    color: $green;
+    a {
+      transition: all .2s ease-out;
+      text-decoration: none;
+
+      color: $green;
+      &:hover {
+        color: $green + #111;
+      }
+    }
   }
   &__logout {
+    font-size: 14px;
+
     margin-left: 74px;
 
     color: #787878;
-
-    font-size: 14px;
   }
 }

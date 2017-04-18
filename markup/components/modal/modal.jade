@@ -85,3 +85,22 @@ mixin modal-lost(data)
         input(type="text" value="" placeholder="Введите вашу почту").form-field
 
     input(type="submit" value="Восстановить").modal-form__submit._enter
+
+mixin modal-ticket(data)
+  .modal.modal-ticket#modal-ticket
+    .modal__close
+    .modal__title Новое сообщение
+
+    form().modal-form
+      .modal-form__row
+        .modal-form__column._left
+          .modal-form__label Тема
+        .modal-form__column._right
+          input(type="text" value="").form-field
+      .modal-form__row
+        .modal-form__column._left
+          .modal-form__label Сообщение
+        .modal-form__column._right
+          textarea().form-field._textarea
+
+    input(type="submit" value="Отправить").modal-form__submit._enter

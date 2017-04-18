@@ -1,0 +1,12 @@
+extends ./_layout.jade
+
+block content
+  .wrapper
+    .layout-side
+      +menu()
+    .layout-content
+      ._flex
+        +filter-block(['Входящие','Исходящие', 'Закрытые'])
+        a(href="#" title="" data-modal="#modal-ticket").button._green._small Новое сообщение
+      +tickets-list()
+      +pagination()

@@ -1,7 +1,6 @@
 .last-paid {
   box-sizing: border-box;
   width: 100%;
-  max-width: 250px;
   margin-top: 21px;
   padding-top: 14px;
   padding-right: 22px;
@@ -10,25 +9,30 @@
 
   @extend .white-block;
   &__title {
+    display: flex;
+
     margin-bottom: 12px;
+
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
 .last-paid-table {
   tr {
     td {
-      color: #666;
-
       font-size: 12px;
-      &:first-child {
-        color: $green;
 
+      color: #666;
+      &:first-child {
         font-size: 14px;
+
+        color: $green;
       }
       &:last-child {
-        color: #333;
-
         font-size: 14px;
+
+        color: #333;
         span {
           color: #7d7d7d;
         }
