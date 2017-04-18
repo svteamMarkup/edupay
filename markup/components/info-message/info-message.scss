@@ -1,0 +1,17 @@
+.info-message {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 30px;
+
+  @extend .white-block;
+  &__title {
+    margin-bottom: 10px;
+
+    color: red;
+  }
+  &__text {
+    font-size: 14px;
+
+    color: gray;
+  }
+}

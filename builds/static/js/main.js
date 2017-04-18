@@ -457,6 +457,7 @@ $('input').change(function () {
 
 
 
+
 $('[data-modal]').click(function (e) {
   e.preventDefault();
   $('.modal').removeClass('_active');
@@ -497,5 +498,6 @@ function show_modal(page, action, redir_page) {
 
 
 new Clipboard('.btn-buf');
+
 
 

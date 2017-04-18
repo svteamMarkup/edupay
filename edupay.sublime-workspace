@@ -4,15 +4,7 @@
 		"selected_items":
 		[
 			[
-				"marign",
-				"margin-bottom"
-			],
-			[
 				"pad",
-				"padding"
-			],
-			[
-				"padd",
 				"padding-left"
 			],
 			[
@@ -20,8 +12,40 @@
 				"text-decoration"
 			],
 			[
-				"margin",
+				"marign",
 				"margin-top"
+			],
+			[
+				"for",
+				"form-field"
+			],
+			[
+				"moda",
+				"modal-form"
+			],
+			[
+				"modal",
+				"modalItem"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding"
 			],
 			[
 				"paddin",
@@ -38,10 +62,6 @@
 			[
 				"before",
 				"page-break-before"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"data",
@@ -140,14 +160,6 @@
 				"border-box"
 			],
 			[
-				"modal",
-				"modal-sale"
-			],
-			[
-				"moda",
-				"modal-sale-block"
-			],
-			[
 				"banner",
 				"banner-place"
 			],
@@ -229,10 +241,23 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/SVTEAM/edupay/markup"
+		"/Users/extiser/git/SVTEAM/edupay/markup",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components",
+		"/Users/extiser/git/SVTEAM/edupay/markup/pages",
+		"/Users/extiser/git/SVTEAM/edupay/markup/static",
+		"/Users/extiser/git/SVTEAM/edupay/markup/static/images",
+		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/modal/modal.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/pages/_landing-layout.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/modal/modal.js",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/modal/modal.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/pages/landing.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/landing-header/landing-header.jade",
+		"/Users/extiser/git/quick-made/markup/components/one-click/one-click.js",
+		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/SVTEAM/sovets-2017/markup/pages/layout.pug",
 		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/header-control/header-control.scss",
 		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/block-gui/block-gui.scss",

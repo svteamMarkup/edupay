@@ -1,32 +1,21 @@
 .balance-block {
   position: relative;
 
+  display: flex;
+
   box-sizing: border-box;
   width: 100%;
   max-width: 690px;
-  padding: 20px 10px 20px 117px;
-  max-height: 97px;
+  min-height: 95px;
+  padding: 20px;
 
   color: #fff;
 
   @extend .blue-block;
-  &:before {
-    position: absolute;
-    top: 10px;
-    left: 21px;
-
-    display: block;
-
-    content: "";
-
-    @include bg($wallet);
-  }
+  justify-content: space-between;
+  align-items: center;
   &__label {
     font-size: 14px;
-    font-weight: 700;
-  }
-  &__summ {
-    font-size: 37px;
-    line-height: 37px;
+    font-weight: 400;
   }
 }
