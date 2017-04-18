@@ -27,7 +27,8 @@
                 <a
                 href="javascript: void(0);" title="" class="main-menu__item">Видео презентация</a><a href="javascript: void(0);" title="" class="main-menu__item">Модель продаж</a>
             </nav>
-            <nav class="main-menu"><a href="#" title="" data-modal="#modal-enter" class="main-menu__item">Войти</a><a href="#" title="" data-modal="#modal-registration" class="button _green main-menu__item">Регистрация</a>
+            <nav class="main-menu"><a href="javascript: void(0);" title="" data-modal="#modal-enter" onclick="show_modal('user', 'enter', 'statistics');" class="main-menu__item">Войти</a><a href="javascript: void(0);" title="" data-modal="#modal-registration" onclick="show_modal('user', 'registration', 'statistics');"
+                class="button _green main-menu__item">Регистрация</a>
             </nav>
         </header>
         <section class="landing-banner">
@@ -273,9 +274,9 @@
                     <input type="password" value="" class="form-field">
                 </div>
                 <input type="submit" value="Войти" class="modal-form__submit _enter">
-            </form><a href="#" title="" data-modal="#modal-lost-password" class="modal__lost">Забыли пароль?</a>
+            </form><a href="javascript: void(0);" title="" data-modal="#modal-restore" onclick="show_modal('user', 'registration', 'statistics');" class="modal__lost">Забыли пароль?</a>
         </div>
-        <div id="modal-lost-password" class="modal modal-lost-password">
+        <div id="modal-restore" class="modal modal-restore">
             <div class="modal__close"></div>
             <div class="modal__title">Восстановление пароля</div>
             <form class="modal-form">

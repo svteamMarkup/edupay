@@ -8,5 +8,7 @@ mixin landing-header(data)
         a.main-menu__item(href="javascript: void(0);" title="") Видео презентация
         a.main-menu__item(href="javascript: void(0);" title="") Модель продаж
     nav.main-menu
-        a.main-menu__item(href="#" title="" data-modal="#modal-enter") Войти
-        a.button._green.main-menu__item(href="#" title="" data-modal="#modal-registration") Регистрация
+        a.main-menu__item(href="javascript: void(0);" title=""
+         data-modal="#modal-enter" onclick="show_modal('user', 'enter', 'statistics');") Войти
+        a.button._green.main-menu__item(href="javascript: void(0);" title=""
+         data-modal="#modal-registration" onclick="show_modal('user', 'registration', 'statistics');") Регистрация

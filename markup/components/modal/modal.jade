@@ -1,7 +1,7 @@
 mixin modal-registration(data)
   .modal.modal-registration#modal-registration
-    .modal__close 
-    .modal__title Регистрация 
+    .modal__close
+    .modal__title Регистрация
 
     form().modal-form
       .modal-form__row
@@ -14,7 +14,7 @@ mixin modal-registration(data)
           label
             input(type="radio" value="" name="typeAcc")
             span Юридическое лицо (в том числе ИП)
-        
+
       .modal-form__row
         .modal-form__column._left
           .modal-form__label Ваша Фамилия *
@@ -57,8 +57,8 @@ mixin modal-registration(data)
         .modal-form__column._right._captcha
           img(src="%=static=%images/content/temp-captcha.png" alt="")
           input(type="password" value="").form-field
- 
-      
+
+
       input(type="submit" value="Отправить заявку").modal-form__submit
 
 mixin modal-enter(data)
@@ -73,10 +73,11 @@ mixin modal-enter(data)
         input(type="password" value="").form-field
       input(type="submit" value="Войти").modal-form__submit._enter
 
-    a(href="#" title="" data-modal="#modal-lost-password").modal__lost Забыли пароль?
+    a(href="javascript: void(0);" title="" data-modal="#modal-restore"
+      onclick="show_modal('user', 'registration', 'statistics');").modal__lost Забыли пароль?
 
 mixin modal-lost(data)
-  .modal.modal-lost-password#modal-lost-password
+  .modal.modal-restore#modal-restore
     .modal__close
     .modal__title Восстановление пароля
 
