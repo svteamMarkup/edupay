@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"bala",
+				"balance-block__row"
+			],
+			[
+				"bana",
+				"balance-block__label"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"pad",
 				"padding-left"
 			],
 			[
 				"text",
 				"text-decoration"
-			],
-			[
-				"marign",
-				"margin-top"
 			],
 			[
 				"for",
@@ -26,10 +38,6 @@
 			[
 				"modal",
 				"modalItem"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"margi",
@@ -243,6 +251,7 @@
 	[
 		"/Users/extiser/git/SVTEAM/edupay/markup",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/head",
 		"/Users/extiser/git/SVTEAM/edupay/markup/pages",
 		"/Users/extiser/git/SVTEAM/edupay/markup/static",
 		"/Users/extiser/git/SVTEAM/edupay/markup/static/images",
@@ -250,14 +259,30 @@
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/head/head.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss/common.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/last-paid/last-paid.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/balance-block/balance-block.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/pages/balance.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/info-message/info-message.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/info-message/info-message.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/balance-block/balance-block.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/pages/_layout.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/last-paid/last-paid.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/tickets-list/tickets-list.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/news-list/news-list.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/tickets-list/tickets-list.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/modal/modal.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/pages/tickets.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/header/header.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/header/header.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/pages/_landing-layout.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/modal/modal.js",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/modal/modal.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/pages/landing.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/landing-header/landing-header.jade",
 		"/Users/extiser/git/quick-made/markup/components/one-click/one-click.js",
-		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/SVTEAM/sovets-2017/markup/pages/layout.pug",
 		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/header-control/header-control.scss",
 		"/Users/extiser/git/SVTEAM/sovets-2017/markup/components/block-gui/block-gui.scss",
@@ -361,24 +386,11 @@
 		"/Users/extiser/git/quick-made/markup/components/seo-text/seo-text.jade",
 		"/Users/extiser/git/quick-made/markup/components/seo-text/seo-text.scss",
 		"/Users/extiser/git/quick-made/markup/components/catalog-inside/catalog-inside.jade",
-		"/Users/extiser/git/quick-made/markup/components/catalog-inside/catalog-inside.scss",
-		"/Users/extiser/git/quick-made/markup/pages/product.jade",
-		"/Users/extiser/git/quick-made/markup/components/similar-products/similar-products.jade",
-		"/Users/extiser/git/quick-made/markup/components/similar-products/similar-products.scss",
-		"/Users/extiser/git/quick-made/markup/components/extended-block/extended-block.scss",
-		"/Users/extiser/git/quick-made/markup/components/product-card/product-card.scss",
-		"/Users/extiser/git/quick-made/markup/components/product-card/product-card.jade",
-		"/Users/extiser/git/quick-made/markup/components/other-volumes/other-volumes.jade",
-		"/Users/extiser/git/quick-made/markup/components/other-volumes/other-volumes.scss",
-		"/Users/extiser/git/quick-made/markup/components/small-block/small-block.jade",
-		"/Users/extiser/git/quick-made/markup/components/small-block/small-block.scss",
-		"/Users/extiser/git/quick-made/markup/pages/index.jade",
-		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
-		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings"
+		"/Users/extiser/git/quick-made/markup/components/catalog-inside/catalog-inside.scss"
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -393,6 +405,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"form-sele",
+			"form-sle",
+			"button",
 			"._central",
 			"._small",
 			";\n",
