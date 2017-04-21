@@ -429,6 +429,7 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
 
 $('select').change(function () {
     if ($(this).parent().attr('class').indexOf('_statistics') >= 0) return;
+    if ($(this).parent().attr('class').indexOf('_balance') >= 0) return;
     if ($(this).parent().attr('class').indexOf('_sel-chanel') >= 0)
         $(this).parent().attr('class', 'form-select _sel-chanel');
     else $(this).parent().attr('class', 'form-select _adv-chanel');
