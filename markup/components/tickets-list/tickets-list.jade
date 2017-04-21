@@ -1,42 +1,33 @@
 mixin tickets-list(data)
   .tickets-list
-    .news-item._unreaded
-      .news-item__top
-        .news-item__title МТС: активация кастомизированных ЛП
-        .news-item__date 
-          i.fa.fa-calendar
-          span 21.05.2016   15:30
-      .news-item__text 
-        p С сегодняшнего дня оператором МТС были возвращены в работу ранее согласованные и установленные лендинги для вап-проектов.
+    .tickets-list-left
+      .tickets-list__title Отправитель
+      .tickets-list-left__content
+        .tickets-list__name._green Vage
+        .tickets-list__time 2016-05-23  11:00:43
+        .tickets-list__name._blue Admin
 
-      .news-item._inside
-        .news-item__top 
-          .news-item__title Регистрация для партнеров
-          .news-item__date 
-            i.fa.fa-calendar
-            span 21.05.2016   15:30
-        .news-item__text 
-          p Партнерская программа по WAP подпискам от LimonBucks!
+    .tickets-list-right
+      .tickets-list__title Сообщение
+      .tickets-list-right__content
+        .tickets-list__theme Тема: Текст
 
-          p Мы решили WAP сайты вынести в отдельную ПП, с возможностью развития именно этого направления, чтобы дать своим партнерам качественный сервис по WAP подпискам!
+        .tickets-list-message
+          .tickets-list-message__top
+            .tickets-list__name._green Vage
+            .tickets-list__time 2016-05-23  11:00:43
+          .tickets-list-message__text Трехкомпонентное образование синтезирует коллоидный ингибитор до полного израсходования одного из реагирующих веществ. Поглощение кристаллически расщепляет ингибитор так, как это могло влиять на реакцию Дильса-Альдера. Температура титрует катод.
 
-      .news-item._inside
-        .news-item__top 
-          .news-item__title Регистрация для партнеров
-          .news-item__date 
-            i.fa.fa-calendar
-            span 21.05.2016   15:30
-        .news-item__text 
-          p Партнерская программа по WAP подпискам от LimonBucks!
+        .tickets-list-message
+          .tickets-list-message__top
+            .tickets-list__name._blue Admin
+            .tickets-list__time 2016-05-23  11:00:43
+          .tickets-list-message__text Трехкомпонентное образование синтезирует коллоидный ингибитор до полного израсходования одного из реагирующих веществ. Поглощение кристаллически расщепляет ингибитор так, как это могло влиять на реакцию Дильса-Альдера. Температура титрует катод.
 
-          p Мы решили WAP сайты вынести в отдельную ПП, с возможностью развития именно этого направления, чтобы дать своим партнерам качественный сервис по WAP подпискам!
-
-      .news-item._answer._inside
-        .news-item__top
-          .form__row
-            input(type="text" value="" placeholder="Введите заголовок сообщения").form-field._w100
-        .news-item__text 
-          .form__row
-            textarea(placeholder="Введите текст сообщения").form-field._textarea._w100
-          .form__row
-            input(type="submit" value="Отправить").button._green
+        .tickets-list-form
+          textarea().form-field._textarea._w100
+          .tickets-list-form__control
+            input(type="submit" value="Отправить").button._green._small
+            input(type="submit" value="Удалить").button._white._small
+            input(type="submit" value="Закрыть тикет").button._white._small
+            input(type="submit" value="Удалить тикет").button._white._small

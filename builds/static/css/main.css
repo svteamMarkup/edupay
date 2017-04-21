@@ -3679,7 +3679,7 @@ blockquote {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
-.white-block, .button._white, ._white.modal-form__submit, .adv-chanel-form, .advert-control, .advert-table, .advert-table-control, .channel-add-form, .filter-block__item, .info-message, .last-paid, .login-form-layout, .news-add-form, .news-item, .pagination__item, .profile-form, .sites-block, .statistics-table, .wallet-block {
+.white-block, .button._white, ._white.modal-form__submit, .adv-chanel-form, .advert-control, .advert-table, .advert-table-control, .channel-add-form, .filter-block__item, .info-message, .last-paid, .login-form-layout, .news-add-form, .news-item, .pagination__item, .profile-form, .sites-block, .statistics-table, .tickets-list, .wallet-block {
   background: #fff;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
@@ -5944,7 +5944,111 @@ body {
 }
 
 .tickets-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 30px;
+  padding: 30px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tickets-list__theme {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: #404040;
+  border-bottom: 1px solid #bebebe;
+}
+
+.tickets-list__title {
+  padding: 14px;
+  color: #fff;
+  background-color: #6db0e0;
+}
+
+.tickets-list__name {
+  font-size: 16px;
+}
+
+.tickets-list__name._blue {
+  color: #6db0e0;
+}
+
+.tickets-list__name._green {
+  color: #72b91a;
+}
+
+.tickets-list__time {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #bebebe;
+}
+
+.tickets-list-left {
+  box-sizing: border-box;
+  width: 20%;
+  background-color: #f4f4f4;
+}
+
+.tickets-list-left__content {
+  padding: 14px;
+}
+
+.tickets-list-right {
+  box-sizing: border-box;
+  width: 80%;
+}
+
+.tickets-list-right__content {
+  padding: 14px;
+}
+
+.tickets-list-message {
+  margin-bottom: 16px;
+}
+
+.tickets-list-message__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.tickets-list-message__text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #676767;
+}
+
+.tickets-list-form {
+  width: 100%;
+}
+
+.tickets-list-form__control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.tickets-list-form__control .button, .tickets-list-form__control .modal-form__submit {
+  margin-left: 10px;
 }
 
 .wallet-block {
