@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"ti",
+				"tickets-list-message"
+			],
+			[
 				"marign",
 				"margin-bottom"
 			],
@@ -14,18 +34,6 @@
 			[
 				"bana",
 				"balance-block__label"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"pad",
-				"padding-left"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"for",
@@ -46,10 +54,6 @@
 			[
 				"no",
 				"nowrap"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"padd",
@@ -251,7 +255,7 @@
 	[
 		"/Users/extiser/git/SVTEAM/edupay/markup",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components",
-		"/Users/extiser/git/SVTEAM/edupay/markup/components/head",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/tickets-list",
 		"/Users/extiser/git/SVTEAM/edupay/markup/pages",
 		"/Users/extiser/git/SVTEAM/edupay/markup/static",
 		"/Users/extiser/git/SVTEAM/edupay/markup/static/images",
@@ -259,6 +263,10 @@
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/tickets-list/tickets-list.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/tickets-list/tickets-list.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss/vars.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/pages/tickets.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/head/head.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss/common.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/last-paid/last-paid.scss",
@@ -270,11 +278,8 @@
 		"/Users/extiser/git/SVTEAM/edupay/markup/pages/_layout.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/last-paid/last-paid.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/SVTEAM/edupay/markup/components/tickets-list/tickets-list.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/news-list/news-list.scss",
-		"/Users/extiser/git/SVTEAM/edupay/markup/components/tickets-list/tickets-list.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/modal/modal.jade",
-		"/Users/extiser/git/SVTEAM/edupay/markup/pages/tickets.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/header/header.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/header/header.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/pages/_landing-layout.jade",
@@ -385,8 +390,7 @@
 		"/Users/extiser/git/quick-made/markup/components/footer/footer.scss",
 		"/Users/extiser/git/quick-made/markup/components/seo-text/seo-text.jade",
 		"/Users/extiser/git/quick-made/markup/components/seo-text/seo-text.scss",
-		"/Users/extiser/git/quick-made/markup/components/catalog-inside/catalog-inside.jade",
-		"/Users/extiser/git/quick-made/markup/components/catalog-inside/catalog-inside.scss"
+		"/Users/extiser/git/quick-made/markup/components/catalog-inside/catalog-inside.jade"
 	],
 	"find":
 	{

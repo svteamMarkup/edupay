@@ -2,22 +2,33 @@
   margin-bottom: 20px;
 
   @extend .white-block;
+  align-items: stretch;
   &__image {
     box-sizing: border-box;
     width: 100%;
-    min-width: 284px;
+    min-width: 310px;
+    padding: 5px;
 
     background: #d8d8d8;
+    img {
+      display: block;
+
+      margin: auto;
+    }
   }
   &__content {
+    position: relative;
+
     box-sizing: border-box;
     width: 100%;
-    min-width: 675px;
-    padding: 30px 20px;
+    min-width: 645px;
+    padding: 20px 20px;
   }
   &__title {
     font-size: 26px;
     font-weight: 700;
+
+    display: block;
 
     margin-bottom: 15px;
 
@@ -29,18 +40,15 @@
     }
   }
   &__text {
-    font-size: 14px;
+    font-size: 16px;
+
     overflow-x: hidden;
+
     color: #666;
   }
-  &__link {
-    font-size: 12px;
-
-    margin-top: 20px;
-    margin-bottom: 10px;
-
-    text-transform: uppercase;
-
-    color: #666;
+  &__button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
 }
