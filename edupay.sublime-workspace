@@ -4,16 +4,16 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-size"
+			],
+			[
 				"margin",
 				"margin-left"
 			],
 			[
 				"pad",
 				"padding-top"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"text",
@@ -208,27 +208,27 @@
 	"buffers":
 	[
 		{
-			"file": "markup/pages/sites.jade",
+			"file": "markup/components/modal/modal.scss",
 			"settings":
 			{
-				"buffer_size": 121,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/components/sites-block/sites-block.jade",
-			"settings":
-			{
-				"buffer_size": 840,
+				"buffer_size": 2653,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "markup/components/sites-block/sites-block.scss",
+			"file": "markup/static/scss/GUI.scss",
 			"settings":
 			{
-				"buffer_size": 763,
+				"buffer_size": 7233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/static/scss/fonts.scss",
+			"settings":
+			{
+				"buffer_size": 5720,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -281,6 +281,8 @@
 	[
 		"/Users/extiser/git/SVTEAM/edupay/markup",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/menu",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/modal",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/sites-block",
 		"/Users/extiser/git/SVTEAM/edupay/markup/pages",
 		"/Users/extiser/git/SVTEAM/edupay/markup/static",
@@ -289,12 +291,15 @@
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/SVTEAM/edupay/markup/pages/sites.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/sites-block/sites-block.jade",
+		"/Users/extiser/git/SVTEAM/edupay/markup/components/sites-block/sites-block.scss",
+		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss/common.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/tickets-list/tickets-list.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/tickets-list/tickets-list.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss/vars.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/pages/tickets.jade",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/head/head.jade",
-		"/Users/extiser/git/SVTEAM/edupay/markup/static/scss/common.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/last-paid/last-paid.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/components/balance-block/balance-block.scss",
 		"/Users/extiser/git/SVTEAM/edupay/markup/pages/balance.jade",
@@ -413,10 +418,7 @@
 		"/Users/extiser/git/verst_sovets-pro/markup/modules/user-page/user-page.jade",
 		"/Users/extiser/git/verst_sovets-pro/markup/modules/user-page/user-page.scss",
 		"/Users/extiser/git/quick-made/markup/components/footer/footer.jade",
-		"/Users/extiser/git/quick-made/markup/components/footer/footer.scss",
-		"/Users/extiser/git/quick-made/markup/components/seo-text/seo-text.jade",
-		"/Users/extiser/git/quick-made/markup/components/seo-text/seo-text.scss",
-		"/Users/extiser/git/quick-made/markup/components/catalog-inside/catalog-inside.jade"
+		"/Users/extiser/git/quick-made/markup/components/footer/footer.scss"
 	],
 	"find":
 	{
@@ -427,6 +429,7 @@
 		"height": 158.0,
 		"where_history":
 		[
+			"/Users/extiser/git/SVTEAM/edupay/markup/components",
 			"/Users/extiser/git/verst_sovets-pro/markup/modules"
 		]
 	},
@@ -435,6 +438,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"&__label",
+			"modal-form__label",
+			"label",
 			"form-sele",
 			"form-sle",
 			"button",
@@ -475,16 +481,47 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "markup/pages/sites.jade",
+					"file": "markup/components/modal/modal.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 121,
+						"buffer_size": 2653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								966,
+								966
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1401.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/static/scss/GUI.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 7233,
 						"regions":
 						{
 						},
@@ -497,7 +534,10 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -507,64 +547,32 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "markup/components/sites-block/sites-block.jade",
+					"buffer": 2,
+					"file": "markup/static/scss/fonts.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 840,
+						"buffer_size": 5720,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								840,
-								840
+								254,
+								254
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "markup/components/sites-block/sites-block.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 763,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								763
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 394.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -609,7 +617,7 @@
 	"project": "edupay.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":
