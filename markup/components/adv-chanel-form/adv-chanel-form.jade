@@ -22,6 +22,15 @@ mixin adv-chanel-form(data)
         label.form__label._adv-chanel-form URL целевой страницы
         input(type="text" value="").form-field._adv-chanel
 
+      .form__row._flex1
+       label.form__label._adv-chanel-form Арбитражная цена
+       .form-select._sel-chanel-55
+         select.form-select__field
+           option выберите тип
+       label.form__label._adv-chanel-form =
+       input(name="price" placeholder="введите цену, руб" type="number" min="0" max="9999" step="1" size="4" value="").form-field._w40
+
+
       .form-btn-group._adv-chanel
         input(type="submit" value="Сохранить").button._green
         input(type="submit" value="Отменить").button._white
